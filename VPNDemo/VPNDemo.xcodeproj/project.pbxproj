@@ -119,10 +119,10 @@
 		ED7F4EB716A554D2008F431A /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				ED7F4EC316A558EB008F431A /* Home_Custom_Cell */,
 				ED7F4EB816A554D2008F431A /* MasterViewController.h */,
 				ED7F4EB916A554D2008F431A /* MasterViewController.m */,
 				ED7F4EBA16A554D2008F431A /* MasterViewController.xib */,
+				ED7F4EC316A558EB008F431A /* Home_Custom_Cell */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";

@@ -17,7 +17,7 @@
     {
         // Initialization code
         
-                
+       // service_imageView.contentMode = UIViewContentModeScaleAspectFit;
         
     }
     return self;
@@ -28,6 +28,11 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+-(void)layoutSubviews
+{
+    [super layoutSubviews];
 }
 
 -(void)dealloc

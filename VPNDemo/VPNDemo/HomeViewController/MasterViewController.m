@@ -75,6 +75,10 @@
     [self.cellNib instantiateWithOwner:self options:nil];
     cell = home_custom_cell;
     self.home_custom_cell = nil;
+    
+    
+    cell.service_imageView.image = [UIImage imageNamed:@"Default.png"];
+    cell.service_imageView.contentMode = UIViewContentModeScaleAspectFit;
     cell.service_label.text = @"sunshine custome cell.";
     return cell;
 }
