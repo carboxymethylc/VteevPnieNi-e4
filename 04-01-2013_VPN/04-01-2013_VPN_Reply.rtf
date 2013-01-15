@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fmodern\fcharset0 CourierNewPSMT;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red51\green153\blue102;\red255\green0\blue0;
+\red0\green0\blue246;}
+\margl1440\margr1440\vieww25400\viewh13500\viewkind0
+\deftab720
+\pard\pardeftab720\ri331
+
+\f0\fs36 \cf2 1)In doc_main.doc user \'96 section: \'93{\field{\*\fldinst{HYPERLINK "http://billing.secure-vpn.com/register.php"}}{\fldrslt 
+\f1 \ul Register a New Account}}
+\f1  \'93 user have to create an account in {\field{\*\fldinst{HYPERLINK "http://billing.secure-vpn.com/register.php"}}{\fldrslt \ul http://billing.secure-vpn.com/register.php}} first for both trial and purchase accounts.\
+\pard\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\pardeftab720\ri331
+
+\f2\fs32 \cf0 \
+2)We will query in WHMCS system if the client logged in billing.secure-vpn.com by this way:\
+\
+<?php\
+require("dbconnect.php");\
+\
+if ($_SESSION['uid']) \{\
+	echo "whmcs user logged in";\
+\} else \{\
+	echo "whmcs user not yet login";\
+\}\
+?>\
+\pard\pardeftab720\ri331
+
+\f1\fs36 \cf2 \
+I\'92ve created this in {\field{\*\fldinst{HYPERLINK "%22"}}{\fldrslt \ul http://billing.secure-vpn.com/check.php}} and works perfect\
+But please do some modifications :Check to see if 4 previously saved info in device  present: VPNusername\
+VPNpassword\
+Account type\
+Creation date\
+\
+-- We can not store old information in device if user uninstalls the app,So for registration we can do one thing,from iPhone we redirect user to your registration page with some special parameter like  {\field{\*\fldinst{HYPERLINK "http://billing.secure-vpn.com/register.php"}}{\fldrslt \ul http://billing.secure-vpn.com/register.php}}\ul ?device=iPhone.\ulnone So from there you can process request for registration like normal web-browser user.When user register him self,you can check it is from iPhone and redirect him to special link like http://xyz.com?username=abc&pass=xyz&\'85 all other useful info,which we can collect in iOS application.
+\f0\b\fs42 \cf3 \
+\pard\pardeftab720\ri331\qc
+\cf3 \
+\
+\
+\
+**Mobileconfig Auto File Creation Function\
+\pard\pardeftab720\ri331\qj
+
+\b0\fs32 \cf2 ---Yes! tbl_1month, tbl_3month, tbl_6month, tbl_12month, tbl_36month as we provide 5 type of accounts\
+\pard\pardeftab720\ri331
+
+\f1 \cf2 \
+Query database for new user/pass and save these info in device (should be present always even after removing the app in device and reinstallation)\
+VPN_username\
+VPN_password\
+Account_Type\
+Creation_Date\
+\pard\pardeftab720\ri331\qj
+
+\f0 \cf2 \
+\pard\pardeftab720\ri331
+\cf2 Please  download s.mobileconfig (nl.secure-vpn.com/s.mobileconfig ) and open it in  iPhoneConfigUtility \
+\pard\pardeftab720\ri331\qj
+\cf4 \
+\pard\pardeftab720\ri331\qj
+\cf2 So we need a function to create 2 type of configs for trial and premium users\
+I want to provide 7 days trial with 2 server so I\'92ll send base configed file with 2 ready server in a trial. Mobileconfig file and premium.mobileconfig file with 7 servers in that\
+The only thing that might change is user pass for each user so we need a script to read related user/pass from tbl_xmonth and install it in profile using the method of iPCUScripting.dll I think these can help you :\
+\pard\pardeftab720\ri331\qj
+\cf0 Automating configuration profile creation references:
+\fs42 \cf2 \uc0\u8232 
+\fs32 http://www.scribd.com/doc/118511902/IPhone-Configuration-Utility\
+\pard\pardeftab720\ri331\qj
+{\field{\*\fldinst{HYPERLINK "%22"}}{\fldrslt \cf2 \ul \ulc2 https://discussions.apple.com/thread/2511835?start=0&tstart=0}}\
+\pard\pardeftab720\ri331
+{\field{\*\fldinst{HYPERLINK "http://help.apple.com/iosdeployment-ipcu/win/1.1/"}}{\fldrslt \cf5 \ul \ulc5 http://help.apple.com/iosdeployment-ipcu/win/1.1/}}\cf0 \
+\
+\
+-- We can store some information in device which stays till user has app installed,and check whether the user is logged in and its username and password.Then we can search that username-password in \cf2 tbl_xmonth\cf0 (for searching we need web service)\cf2  \cf0 and based on search result we can decide user type and create config file from it.}
