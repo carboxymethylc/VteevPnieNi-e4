@@ -1,82 +1,65 @@
 //
-//  MasterViewController.m
+//  SetUpViewConroller.m
 //  VPNDemo
 //
-//  Created by Chirag@Sunshine on 15/01/13.
+//  Created by LD.Chirag on 1/15/13.
 //  Copyright (c) 2013 SunshineInfotech. All rights reserved.
 //
 
-#import "MasterViewController.h"
+#import "SetUpViewConroller.h"
 
+@interface SetUpViewConroller ()
 
+@end
 
-
-
-@implementation MasterViewController
-@synthesize home_custom_cell,cellNib;
-
+@implementation SetUpViewConroller
+@synthesize setup_custom_cell,cellNib;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self)
     {
-        self.title = NSLocalizedString(@"Main", @"Main");
+        // Custom initialization
+        self.title = NSLocalizedString(@"Setup", @"Setup");
     }
     return self;
-}
-							
-- (void)dealloc
-{
-   
-
-    [super dealloc];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+    
     
     
     
     image_array = [[NSMutableArray alloc] initWithObjects:
-                     @"register.png",
-                     @"select_vpn_plan.png",
-                     @"list_of_protocols.png",
-                     @"setup_on_iphone.png",
-                     @"my_invoices.png",
-                     @"my_detail.png", nil];
+                  @"setup_vpn.png",
+                  @"manual_setup_guide.png",
+                  @"",
+                  @"server_localization.png",
+                   nil];
     
     service_array = [[NSMutableArray alloc] initWithObjects:
-                     @"Register a New Account",
-                     @"Select a VPN Plan",
-                     @"List of Protocols",
-                     @"Setup VPN on iPhone",
-                     @"My Invoices",
-                     @"My Details", nil];
+                     @"Auto Setup VPN",
+                     @"Manual Setup Guide",
+                     @"List of VPN Errors",
+                     @"Server Locations", nil];
     
-   
+    
     sub_service_array = [[NSMutableArray alloc] initWithObjects:
-                         @"Get a FREE trial now!",
-                         @"Unlimited usage multi servers!",
+                         @"One-Click Setup",
+                         @"Android-Mac-Win-Linux-iOS",
                          @"PPTP-SSTP-L2TP-HTTPS-Socks",
-                         @"Automatic installation",
-                         @"View your invoices",
-                         @"Change your account details", nil];
+                         @"List of available servers",
+                        nil];
     
     
     
 	// Do any additional setup after loading the view, typically from a nib.
     
     
-    self.cellNib = [UINib nibWithNibName:@"HomeCustomCell" bundle:nil];
-
-    
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.cellNib = [UINib nibWithNibName:@"SetupCustomCell" bundle:nil];
 }
 
 
@@ -97,12 +80,12 @@
 {
     static NSString *CellIdentifier = @"Cell";
     
-     HomeCustomCell *cell = (HomeCustomCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    SetupCustomCell *cell = (SetupCustomCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     
     [self.cellNib instantiateWithOwner:self options:nil];
-    cell = home_custom_cell;
-    self.home_custom_cell = nil;
+    cell = setup_custom_cell;
+    self.setup_custom_cell = nil;
     
     cell.plan_imageView.image = [UIImage imageNamed:[image_array objectAtIndex:indexPath.row]];
     cell.plan_imageView.contentMode = UIViewContentModeScaleAspectFill;
@@ -128,6 +111,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"\n didSelectRowAtIndexPath = %d",indexPath.row);
+}
+
+
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end

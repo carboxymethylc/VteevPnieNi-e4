@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4678F7F516A5927C00D67383 /* SetUpViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678F7F316A5927C00D67383 /* SetUpViewConroller.m */; };
+		4678F7F616A5927C00D67383 /* SetUpViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4678F7F416A5927C00D67383 /* SetUpViewConroller.xib */; };
+		4678F7FA16A5936900D67383 /* SetupCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678F7F916A5936900D67383 /* SetupCustomCell.m */; };
+		4678F7FC16A5938F00D67383 /* SetupCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4678F7FB16A5938F00D67383 /* SetupCustomCell.xib */; };
+		4678F80516A59A8A00D67383 /* list_of_protocols.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F7FF16A59A8A00D67383 /* list_of_protocols.png */; };
+		4678F80616A59A8A00D67383 /* my_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80016A59A8A00D67383 /* my_detail.png */; };
+		4678F80716A59A8A00D67383 /* my_invoices.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80116A59A8A00D67383 /* my_invoices.png */; };
+		4678F80816A59A8A00D67383 /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80216A59A8A00D67383 /* register.png */; };
+		4678F80916A59A8A00D67383 /* select_vpn_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80316A59A8A00D67383 /* select_vpn_plan.png */; };
+		4678F80A16A59A8A00D67383 /* setup_on_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80416A59A8A00D67383 /* setup_on_iphone.png */; };
+		4678F81016A5AACC00D67383 /* manual_setup_guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80C16A5AACC00D67383 /* manual_setup_guide.png */; };
+		4678F81216A5AACC00D67383 /* server_localization.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80E16A5AACC00D67383 /* server_localization.png */; };
+		4678F81316A5AACC00D67383 /* setup_vpn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80F16A5AACC00D67383 /* setup_vpn.png */; };
 		ED7F4E8F16A55468008F431A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E8E16A55468008F431A /* UIKit.framework */; };
 		ED7F4E9116A55468008F431A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E9016A55468008F431A /* Foundation.framework */; };
 		ED7F4E9316A55468008F431A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E9216A55468008F431A /* CoreGraphics.framework */; };
@@ -25,6 +38,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4678F7F216A5927C00D67383 /* SetUpViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpViewConroller.h; sourceTree = "<group>"; };
+		4678F7F316A5927C00D67383 /* SetUpViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpViewConroller.m; sourceTree = "<group>"; };
+		4678F7F416A5927C00D67383 /* SetUpViewConroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetUpViewConroller.xib; sourceTree = "<group>"; };
+		4678F7F816A5936900D67383 /* SetupCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupCustomCell.h; sourceTree = "<group>"; };
+		4678F7F916A5936900D67383 /* SetupCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupCustomCell.m; sourceTree = "<group>"; };
+		4678F7FB16A5938F00D67383 /* SetupCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupCustomCell.xib; sourceTree = "<group>"; };
+		4678F7FF16A59A8A00D67383 /* list_of_protocols.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_of_protocols.png; sourceTree = "<group>"; };
+		4678F80016A59A8A00D67383 /* my_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_detail.png; sourceTree = "<group>"; };
+		4678F80116A59A8A00D67383 /* my_invoices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_invoices.png; sourceTree = "<group>"; };
+		4678F80216A59A8A00D67383 /* register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register.png; sourceTree = "<group>"; };
+		4678F80316A59A8A00D67383 /* select_vpn_plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_vpn_plan.png; sourceTree = "<group>"; };
+		4678F80416A59A8A00D67383 /* setup_on_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup_on_iphone.png; sourceTree = "<group>"; };
+		4678F80C16A5AACC00D67383 /* manual_setup_guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manual_setup_guide.png; sourceTree = "<group>"; };
+		4678F80E16A5AACC00D67383 /* server_localization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = server_localization.png; sourceTree = "<group>"; };
+		4678F80F16A5AACC00D67383 /* setup_vpn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup_vpn.png; sourceTree = "<group>"; };
 		ED7F4E8A16A55468008F431A /* VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7F4E8E16A55468008F431A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED7F4E9016A55468008F431A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,6 +91,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4678F7EE16A58D3200D67383 /* ContactUS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactUS;
+			sourceTree = "<group>";
+		};
+		4678F7EF16A58D3200D67383 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		4678F7F016A58D3200D67383 /* SetUp */ = {
+			isa = PBXGroup;
+			children = (
+				4678F7F716A5935400D67383 /* SetupCustomeCell */,
+				4678F7F216A5927C00D67383 /* SetUpViewConroller.h */,
+				4678F7F316A5927C00D67383 /* SetUpViewConroller.m */,
+				4678F7F416A5927C00D67383 /* SetUpViewConroller.xib */,
+			);
+			path = SetUp;
+			sourceTree = "<group>";
+		};
+		4678F7F716A5935400D67383 /* SetupCustomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				4678F7FB16A5938F00D67383 /* SetupCustomCell.xib */,
+				4678F7F816A5936900D67383 /* SetupCustomCell.h */,
+				4678F7F916A5936900D67383 /* SetupCustomCell.m */,
+			);
+			path = SetupCustomeCell;
+			sourceTree = "<group>";
+		};
+		4678F7FD16A59A8A00D67383 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4678F80B16A5AACC00D67383 /* setup */,
+				4678F7FE16A59A8A00D67383 /* Main */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4678F7FE16A59A8A00D67383 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4678F7FF16A59A8A00D67383 /* list_of_protocols.png */,
+				4678F80016A59A8A00D67383 /* my_detail.png */,
+				4678F80116A59A8A00D67383 /* my_invoices.png */,
+				4678F80216A59A8A00D67383 /* register.png */,
+				4678F80316A59A8A00D67383 /* select_vpn_plan.png */,
+				4678F80416A59A8A00D67383 /* setup_on_iphone.png */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4678F80B16A5AACC00D67383 /* setup */ = {
+			isa = PBXGroup;
+			children = (
+				4678F80C16A5AACC00D67383 /* manual_setup_guide.png */,
+				4678F80E16A5AACC00D67383 /* server_localization.png */,
+				4678F80F16A5AACC00D67383 /* setup_vpn.png */,
+			);
+			path = setup;
+			sourceTree = "<group>";
+		};
 		ED7F4E7F16A55468008F431A = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +188,9 @@
 		ED7F4E9416A55468008F431A /* VPNDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4678F7EE16A58D3200D67383 /* ContactUS */,
+				4678F7EF16A58D3200D67383 /* Purchase */,
+				4678F7F016A58D3200D67383 /* SetUp */,
 				ED7F4EBD16A55802008F431A /* RegistrationPageViewController */,
 				ED7F4EB716A554D2008F431A /* HomeViewController */,
 				ED7F4E9D16A55468008F431A /* AppDelegate.h */,
@@ -105,6 +203,7 @@
 		ED7F4E9516A55468008F431A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4678F7FD16A59A8A00D67383 /* images */,
 				ED7F4E9616A55468008F431A /* VPNDemo-Info.plist */,
 				ED7F4E9716A55468008F431A /* InfoPlist.strings */,
 				ED7F4E9A16A55468008F431A /* main.m */,
@@ -205,6 +304,17 @@
 				ED7F4EBC16A554D2008F431A /* MasterViewController.xib in Resources */,
 				ED7F4EC216A55802008F431A /* DetailViewController.xib in Resources */,
 				ED7F4ED016A55C56008F431A /* HomeCustomCell.xib in Resources */,
+				4678F7F616A5927C00D67383 /* SetUpViewConroller.xib in Resources */,
+				4678F7FC16A5938F00D67383 /* SetupCustomCell.xib in Resources */,
+				4678F80516A59A8A00D67383 /* list_of_protocols.png in Resources */,
+				4678F80616A59A8A00D67383 /* my_detail.png in Resources */,
+				4678F80716A59A8A00D67383 /* my_invoices.png in Resources */,
+				4678F80816A59A8A00D67383 /* register.png in Resources */,
+				4678F80916A59A8A00D67383 /* select_vpn_plan.png in Resources */,
+				4678F80A16A59A8A00D67383 /* setup_on_iphone.png in Resources */,
+				4678F81016A5AACC00D67383 /* manual_setup_guide.png in Resources */,
+				4678F81216A5AACC00D67383 /* server_localization.png in Resources */,
+				4678F81316A5AACC00D67383 /* setup_vpn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +330,8 @@
 				ED7F4EBB16A554D2008F431A /* MasterViewController.m in Sources */,
 				ED7F4EC116A55802008F431A /* DetailViewController.m in Sources */,
 				ED7F4EC616A55913008F431A /* HomeCustomCell.m in Sources */,
+				4678F7F516A5927C00D67383 /* SetUpViewConroller.m in Sources */,
+				4678F7FA16A5936900D67383 /* SetupCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

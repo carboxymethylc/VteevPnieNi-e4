@@ -45,6 +45,17 @@
 						<int key="NSvFlags">256</int>
 						<object class="NSMutableArray" key="NSSubviews">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBUIImageView" id="37197877">
+								<reference key="NSNextResponder" ref="806442696"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{2, 6}, {75, 60}}</string>
+								<reference key="NSSuperview" ref="806442696"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="1058917816"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<bool key="IBUIUserInteractionEnabled">NO</bool>
+								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+							</object>
 							<object class="IBUILabel" id="1058917816">
 								<reference key="NSNextResponder" ref="806442696"/>
 								<int key="NSvFlags">292</int>
@@ -86,7 +97,6 @@
 								<string key="NSFrame">{{83, 35}, {199, 21}}</string>
 								<reference key="NSSuperview" ref="806442696"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -111,22 +121,11 @@
 								</object>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 							</object>
-							<object class="IBUIImageView" id="186451088">
-								<reference key="NSNextResponder" ref="806442696"/>
-								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{2, 6}, {75, 60}}</string>
-								<reference key="NSSuperview" ref="806442696"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="1058917816"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							</object>
 						</object>
 						<string key="NSFrameSize">{300, 72}</string>
 						<reference key="NSSuperview" ref="76075731"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="186451088"/>
+						<reference key="NSNextKeyView" ref="37197877"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
@@ -159,11 +158,11 @@
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">home_custom_cell</string>
+						<string key="label">setup_custom_cell</string>
 						<reference key="source" ref="841351856"/>
 						<reference key="destination" ref="76075731"/>
 					</object>
-					<int key="connectionID">24</int>
+					<int key="connectionID">30</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -185,9 +184,9 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">plan_imageView</string>
 						<reference key="source" ref="76075731"/>
-						<reference key="destination" ref="186451088"/>
+						<reference key="destination" ref="37197877"/>
 					</object>
-					<int key="connectionID">31</int>
+					<int key="connectionID">32</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -219,7 +218,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="1058917816"/>
 							<reference ref="4698191"/>
-							<reference ref="186451088"/>
+							<reference ref="37197877"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -234,8 +233,8 @@
 						<reference key="parent" ref="76075731"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">30</int>
-						<reference key="object" ref="186451088"/>
+						<int key="objectID">31</int>
+						<reference key="object" ref="37197877"/>
 						<reference key="parent" ref="76075731"/>
 					</object>
 				</object>
@@ -251,16 +250,16 @@
 					<string>2.CustomClassName</string>
 					<string>2.IBPluginDependency</string>
 					<string>28.IBPluginDependency</string>
-					<string>30.IBPluginDependency</string>
+					<string>31.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 				</object>
 				<object class="NSArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>MasterViewController</string>
+					<string>SetUpViewConroller</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>UIResponder</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>HomeCustomCell</string>
+					<string>SetupCustomCell</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -279,13 +278,53 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">31</int>
+			<int key="maxID">32</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">HomeCustomCell</string>
+					<string key="className">SetUpViewConroller</string>
+					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>setup_custom_cell</string>
+							<string>setup_tableView</string>
+						</object>
+						<object class="NSArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>SetupCustomCell</string>
+							<string>UITableView</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>setup_custom_cell</string>
+							<string>setup_tableView</string>
+						</object>
+						<object class="NSArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">setup_custom_cell</string>
+								<string key="candidateClassName">SetupCustomCell</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">setup_tableView</string>
+								<string key="candidateClassName">UITableView</string>
+							</object>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SetUpViewConroller.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SetupCustomCell</string>
 					<string key="superclassName">UITableViewCell</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -328,47 +367,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/HomeCustomCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MasterViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>home_custom_cell</string>
-							<string>service_type_tableView</string>
-						</object>
-						<object class="NSArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>HomeCustomCell</string>
-							<string>UITableView</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>home_custom_cell</string>
-							<string>service_type_tableView</string>
-						</object>
-						<object class="NSArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBToOneOutletInfo">
-								<string key="name">home_custom_cell</string>
-								<string key="candidateClassName">HomeCustomCell</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">service_type_tableView</string>
-								<string key="candidateClassName">UITableView</string>
-							</object>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MasterViewController.h</string>
+						<string key="minorKey">./Classes/SetupCustomCell.h</string>
 					</object>
 				</object>
 			</object>

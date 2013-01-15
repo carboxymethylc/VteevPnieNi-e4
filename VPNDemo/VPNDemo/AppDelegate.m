@@ -9,13 +9,15 @@
 #import "AppDelegate.h"
 
 #import "MasterViewController.h"
+#import "SetUpViewConroller.h"
 
 @implementation AppDelegate
-
+@synthesize tabBarController;
 - (void)dealloc
 {
     [_window release];
     [_navigationController release];
+    [tabBarController release];
     [super dealloc];
 }
 
@@ -25,8 +27,21 @@
     // Override point for customization after application launch.
 
     MasterViewController *masterViewController = [[[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil] autorelease];
+    
+    
+    SetUpViewConroller *setUpViewConroller = [[[SetUpViewConroller alloc] initWithNibName:@"SetUpViewConroller" bundle:nil] autorelease];
+
+    UINavigationController*setUpNavigationController = [[[UINavigationController alloc] initWithRootViewController:setUpViewConroller] autorelease];
+    
+    
+    self.tabBarController = [[[UITabBarController alloc] init] autorelease];
+    
     self.navigationController = [[[UINavigationController alloc] initWithRootViewController:masterViewController] autorelease];
-    self.window.rootViewController = self.navigationController;
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,setUpNavigationController,nil];
+
+    
+    //self.window.rootViewController = self.navigationController;
+    self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }

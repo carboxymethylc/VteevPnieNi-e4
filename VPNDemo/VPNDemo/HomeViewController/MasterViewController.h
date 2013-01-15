@@ -15,6 +15,12 @@
     HomeCustomCell*home_custom_cell;
     UINib *cellNib;
     IBOutlet UITableView*service_type_tableView;
+    
+
+       NSMutableArray*image_array;
+    NSMutableArray*service_array;
+    NSMutableArray*sub_service_array;
+    
 }
 
 @property (strong, nonatomic) DetailViewController *detailViewController;

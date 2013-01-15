@@ -1,24 +1,20 @@
 //
-//  HomeCustomCell.m
+//  SetupCustomCell.m
 //  VPNDemo
 //
-//  Created by Chirag@Sunshine on 15/01/13.
+//  Created by LD.Chirag on 1/15/13.
 //  Copyright (c) 2013 SunshineInfotech. All rights reserved.
 //
 
-#import "HomeCustomCell.h"
+#import "SetupCustomCell.h"
 
-@implementation HomeCustomCell
+@implementation SetupCustomCell
 @synthesize sub_service_label,service_label,plan_imageView;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self)
-    {
+    if (self) {
         // Initialization code
-        
-       // service_imageView.contentMode = UIViewContentModeScaleAspectFit;
-        
     }
     return self;
 }
@@ -29,17 +25,12 @@
 
     // Configure the view for the selected state
 }
-
--(void)layoutSubviews
-{
-    [super layoutSubviews];
-}
-
 -(void)dealloc
 {
+    [plan_imageView release];
     [sub_service_label release];
     [service_label release];
-    [plan_imageView release];
     [super dealloc];
 }
+
 @end
