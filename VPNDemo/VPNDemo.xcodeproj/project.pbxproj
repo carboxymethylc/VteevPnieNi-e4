@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7F4E8F16A55468008F431A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E8E16A55468008F431A /* UIKit.framework */; };
+		ED7F4E9116A55468008F431A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E9016A55468008F431A /* Foundation.framework */; };
+		ED7F4E9316A55468008F431A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E9216A55468008F431A /* CoreGraphics.framework */; };
+		ED7F4E9916A55468008F431A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4E9716A55468008F431A /* InfoPlist.strings */; };
+		ED7F4E9B16A55468008F431A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4E9A16A55468008F431A /* main.m */; };
+		ED7F4E9F16A55468008F431A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4E9E16A55468008F431A /* AppDelegate.m */; };
+		ED7F4EA116A55468008F431A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4EA016A55468008F431A /* Default.png */; };
+		ED7F4EA316A55468008F431A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4EA216A55468008F431A /* Default@2x.png */; };
+		ED7F4EA516A55468008F431A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4EA416A55468008F431A /* Default-568h@2x.png */; };
+		ED7F4EBB16A554D2008F431A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4EB916A554D2008F431A /* MasterViewController.m */; };
+		ED7F4EBC16A554D2008F431A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4EBA16A554D2008F431A /* MasterViewController.xib */; };
+		ED7F4EC116A55802008F431A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4EBF16A55802008F431A /* DetailViewController.m */; };
+		ED7F4EC216A55802008F431A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4EC016A55802008F431A /* DetailViewController.xib */; };
+		ED7F4EC616A55913008F431A /* HomeCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4EC516A55913008F431A /* HomeCustomCell.m */; };
+		ED7F4ED016A55C56008F431A /* HomeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4ECF16A55C56008F431A /* HomeCustomCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED7F4E8A16A55468008F431A /* VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F4E8E16A55468008F431A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED7F4E9016A55468008F431A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED7F4E9216A55468008F431A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED7F4E9616A55468008F431A /* VPNDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPNDemo-Info.plist"; sourceTree = "<group>"; };
+		ED7F4E9816A55468008F431A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED7F4E9A16A55468008F431A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7F4E9C16A55468008F431A /* VPNDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPNDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ED7F4E9D16A55468008F431A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7F4E9E16A55468008F431A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7F4EA016A55468008F431A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ED7F4EA216A55468008F431A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ED7F4EA416A55468008F431A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED7F4EB816A554D2008F431A /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ED7F4EB916A554D2008F431A /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		ED7F4EBA16A554D2008F431A /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		ED7F4EBE16A55802008F431A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ED7F4EBF16A55802008F431A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ED7F4EC016A55802008F431A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		ED7F4EC416A55913008F431A /* HomeCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCustomCell.h; sourceTree = "<group>"; };
+		ED7F4EC516A55913008F431A /* HomeCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCustomCell.m; sourceTree = "<group>"; };
+		ED7F4ECF16A55C56008F431A /* HomeCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCustomCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7F4E8716A55468008F431A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F4E8F16A55468008F431A /* UIKit.framework in Frameworks */,
+				ED7F4E9116A55468008F431A /* Foundation.framework in Frameworks */,
+				ED7F4E9316A55468008F431A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7F4E7F16A55468008F431A = {
+			isa = PBXGroup;
+			children = (
+				ED7F4E9416A55468008F431A /* VPNDemo */,
+				ED7F4E8D16A55468008F431A /* Frameworks */,
+				ED7F4E8B16A55468008F431A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7F4E8B16A55468008F431A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F4E8A16A55468008F431A /* VPNDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7F4E8D16A55468008F431A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F4E8E16A55468008F431A /* UIKit.framework */,
+				ED7F4E9016A55468008F431A /* Foundation.framework */,
+				ED7F4E9216A55468008F431A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7F4E9416A55468008F431A /* VPNDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F4EBD16A55802008F431A /* RegistrationPageViewController */,
+				ED7F4EB716A554D2008F431A /* HomeViewController */,
+				ED7F4E9D16A55468008F431A /* AppDelegate.h */,
+				ED7F4E9E16A55468008F431A /* AppDelegate.m */,
+				ED7F4E9516A55468008F431A /* Supporting Files */,
+			);
+			path = VPNDemo;
+			sourceTree = "<group>";
+		};
+		ED7F4E9516A55468008F431A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F4E9616A55468008F431A /* VPNDemo-Info.plist */,
+				ED7F4E9716A55468008F431A /* InfoPlist.strings */,
+				ED7F4E9A16A55468008F431A /* main.m */,
+				ED7F4E9C16A55468008F431A /* VPNDemo-Prefix.pch */,
+				ED7F4EA016A55468008F431A /* Default.png */,
+				ED7F4EA216A55468008F431A /* Default@2x.png */,
+				ED7F4EA416A55468008F431A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED7F4EB716A554D2008F431A /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F4EC316A558EB008F431A /* Home_Custom_Cell */,
+				ED7F4EB816A554D2008F431A /* MasterViewController.h */,
+				ED7F4EB916A554D2008F431A /* MasterViewController.m */,
+				ED7F4EBA16A554D2008F431A /* MasterViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		ED7F4EBD16A55802008F431A /* RegistrationPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F4EBE16A55802008F431A /* DetailViewController.h */,
+				ED7F4EBF16A55802008F431A /* DetailViewController.m */,
+				ED7F4EC016A55802008F431A /* DetailViewController.xib */,
+			);
+			path = RegistrationPageViewController;
+			sourceTree = "<group>";
+		};
+		ED7F4EC316A558EB008F431A /* Home_Custom_Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F4ECF16A55C56008F431A /* HomeCustomCell.xib */,
+				ED7F4EC416A55913008F431A /* HomeCustomCell.h */,
+				ED7F4EC516A55913008F431A /* HomeCustomCell.m */,
+			);
+			path = Home_Custom_Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7F4E8916A55468008F431A /* VPNDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F4EB416A55468008F431A /* Build configuration list for PBXNativeTarget "VPNDemo" */;
+			buildPhases = (
+				ED7F4E8616A55468008F431A /* Sources */,
+				ED7F4E8716A55468008F431A /* Frameworks */,
+				ED7F4E8816A55468008F431A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNDemo;
+			productName = VPNDemo;
+			productReference = ED7F4E8A16A55468008F431A /* VPNDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7F4E8116A55468008F431A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SunshineInfotech;
+			};
+			buildConfigurationList = ED7F4E8416A55468008F431A /* Build configuration list for PBXProject "VPNDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED7F4E7F16A55468008F431A;
+			productRefGroup = ED7F4E8B16A55468008F431A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7F4E8916A55468008F431A /* VPNDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7F4E8816A55468008F431A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F4E9916A55468008F431A /* InfoPlist.strings in Resources */,
+				ED7F4EA116A55468008F431A /* Default.png in Resources */,
+				ED7F4EA316A55468008F431A /* Default@2x.png in Resources */,
+				ED7F4EA516A55468008F431A /* Default-568h@2x.png in Resources */,
+				ED7F4EBC16A554D2008F431A /* MasterViewController.xib in Resources */,
+				ED7F4EC216A55802008F431A /* DetailViewController.xib in Resources */,
+				ED7F4ED016A55C56008F431A /* HomeCustomCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7F4E8616A55468008F431A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F4E9B16A55468008F431A /* main.m in Sources */,
+				ED7F4E9F16A55468008F431A /* AppDelegate.m in Sources */,
+				ED7F4EBB16A554D2008F431A /* MasterViewController.m in Sources */,
+				ED7F4EC116A55802008F431A /* DetailViewController.m in Sources */,
+				ED7F4EC616A55913008F431A /* HomeCustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED7F4E9716A55468008F431A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F4E9816A55468008F431A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7F4EB216A55468008F431A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED7F4EB316A55468008F431A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7F4EB516A55468008F431A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPNDemo/VPNDemo-Prefix.pch";
+				INFOPLIST_FILE = "VPNDemo/VPNDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED7F4EB616A55468008F431A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPNDemo/VPNDemo-Prefix.pch";
+				INFOPLIST_FILE = "VPNDemo/VPNDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7F4E8416A55468008F431A /* Build configuration list for PBXProject "VPNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F4EB216A55468008F431A /* Debug */,
+				ED7F4EB316A55468008F431A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F4EB416A55468008F431A /* Build configuration list for PBXNativeTarget "VPNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F4EB516A55468008F431A /* Debug */,
+				ED7F4EB616A55468008F431A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7F4E8116A55468008F431A /* Project object */;
+}
