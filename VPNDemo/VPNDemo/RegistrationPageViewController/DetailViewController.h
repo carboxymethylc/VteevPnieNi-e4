@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController<UIWebViewDelegate>
+{
+    IBOutlet UIWebView*registration_view_webView;
+    
+}
 
-@property (strong, nonatomic) id detailItem;
-
-@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end
