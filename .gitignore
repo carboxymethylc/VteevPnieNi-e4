@@ -5,6 +5,8 @@
 
 DerivedData/
 
+build/
+
 VPNDemo/.DS_Store
 
 VPNDemo/VPNDemo/en.lproj/.DS_Store
