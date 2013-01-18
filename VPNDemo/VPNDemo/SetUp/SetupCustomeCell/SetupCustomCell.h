@@ -10,9 +10,10 @@
 
 @interface SetupCustomCell : UITableViewCell
 {
+
     IBOutlet UILabel*service_label;
     IBOutlet UILabel*sub_service_label;
-    IBOutlet UIImageView*plan_imageView;    
+    IBOutlet UIImageView*plan_imageView;
  
 }
 @property(nonatomic,retain)   IBOutlet UILabel*service_label;
