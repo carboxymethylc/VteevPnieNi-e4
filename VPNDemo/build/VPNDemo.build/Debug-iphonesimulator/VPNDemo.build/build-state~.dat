@@ -1,403 +1,0 @@
-TVPNDemo
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Info.plist VPNDemo/VPNDemo-Info.plist
-cProcessPCH /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.pth VPNDemo/VPNDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo normal i386
-cGenerateDSYMFile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app.dSYM /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo
-cCopyStringsFile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/en.lproj/InfoPlist.strings VPNDemo/en.lproj/InfoPlist.strings
-cCpResource VPNDemo/Default.png build/Debug-iphonesimulator/VPNDemo.app/Default.png
-cCpResource VPNDemo/Default@2x.png build/Debug-iphonesimulator/VPNDemo.app/Default@2x.png
-cCpResource VPNDemo/Default-568h@2x.png build/Debug-iphonesimulator/VPNDemo.app/Default-568h@2x.png
-cCompileXIB /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.xib
-cCompileXIB /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.xib
-cCompileXIB /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib
-cTouch /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
-c00000000505A928E0000000000000110
-t1348113038
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000505EC5190000000000228FD0
-t1348388121
-s2265040
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000505EC51B00000000003DCEF0
-t1348388123
-s4050672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000505EC51A00000000000015F7
-t1348388122
-s5623
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c00000000505EC51F0000000000000E8D
-t1348388127
-s3725
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000505EC5210000000000AB3D60
-t1348388129
-s11222368
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
-c00000000505EC52E0000000000001B54
-t1348388142
-s6996
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m
-c0000000050F54E6D0000000000000A3B
-t1358253677
-s2619
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/Default-568h@2x.png
-c0000000050F54E6D00000000000048A2
-t1358253677
-s18594
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/Default.png
-c0000000050F54E6D000000000000198C
-t1358253677
-s6540
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/Default@2x.png
-c0000000050F54E6D0000000000003EEB
-t1358253677
-s16107
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m
-c0000000050F54E6D0000000000000395
-t1358253677
-s917
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib
-c0000000050F54E6D0000000000004134
-t1358253677
-s16692
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m
-c0000000050F54E6D0000000000000A4F
-t1358253677
-s2639
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.xib
-c0000000050F54E6D000000000000282A
-t1358253677
-s10282
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.m
-c0000000050F54E6D00000000000002DB
-t1358253677
-s731
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.xib
-c0000000050F54E6D000000000000208D
-t1358253677
-s8333
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/VPNDemo-Prefix.pch
-c0000000050F54E6D000000000000013D
-t1358253677
-s317
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/en.lproj/InfoPlist.strings
-c0000000050F54E6D000000000000002D
-t1358253677
-s45
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m
-c0000000050F54E6D000000000000015A
-t1358253677
-s346
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app.dSYM
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Default-568h@2x.png
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Default.png
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Default@2x.png
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/DetailViewController.nib
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/HomeCustomCell.nib
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Info.plist
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/MasterViewController.nib
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/PkgInfo
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.o
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.o
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.o
-t2
-s0
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/VPNDemo.LinkFileList
-c0000000050F551B2000000000000031F
-t1358254514
-s799
-
-N/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.pth
-t2
-s0
-
-NVPNDemo/VPNDemo-Info.plist
-c0000000050F54E6D00000000000005AF
-t1358253677
-s1455
-
-CBuild AST from /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m
-r0
-
-CBuild AST from /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m
-r0
-
-CBuild AST from /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m
-r0
-
-CBuild AST from /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.m
-r0
-
-CBuild AST from /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb4007d3289a5b641^6745883289a5b641^---0#1#0#--18"Check dependencies36"1A27B99B-EFE0-492B-A9E2-7A4F977F109A-
-
-CCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379947315.074297
-e379947315.377995
-r1
-xCompileC
-xbuild/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.o
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m7c2a133389a5b641^acc4603389a5b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m0000000000000000^3874"CompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.o VPNDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-generated-files.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-own-target-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-all-target-headers.hmap -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-project-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources/i386 -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources -F/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator -include /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch -MMD -MT dependencies -MF /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.dia -c /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/AppDelegate.m -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/AppDelegate.o36"673F5697-7242-4ED3-BBCB-B70C6629D8B3-
-
-CCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379947315.074334
-e379947315.376166
-r1
-xCompileC
-xbuild/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.o
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.mdf32133389a5b641^3560603389a5b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.m0000000000000000^3990"CompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.o VPNDemo/RegistrationPageViewController/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-generated-files.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-own-target-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-all-target-headers.hmap -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-project-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources/i386 -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources -F/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator -include /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch -MMD -MT dependencies -MF /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.dia -c /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.m -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/DetailViewController.o36"DF3BC0E4-4823-4308-944A-5378A73EC24F-
-
-CCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379947315.358130
-e379947315.415476
-r1
-xCompileC
-xbuild/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.o
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m7d255c3389a5b641^295d6a3389a5b641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m0000000000000000^3964"CompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.o VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-generated-files.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-own-target-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-all-target-headers.hmap -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-project-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources/i386 -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources -F/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator -include /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch -MMD -MT dependencies -MF /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.d --serialize-diagnostics /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.dia -c /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.m -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/HomeCustomCell.o36"5ED2DE16-6BE0-4911-BDC6-ABD1C435D09A-
-
-CCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379947315.074304
-e379947315.381197
-r1
-xCompileC
-xbuild/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.o
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m3333133389a5b641^8596613389a5b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m0000000000000000^3966"CompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.o VPNDemo/HomeViewController/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-generated-files.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-own-target-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-all-target-headers.hmap -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-project-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources/i386 -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources -F/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator -include /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch -MMD -MT dependencies -MF /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.d --serialize-diagnostics /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.dia -c /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.m -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/MasterViewController.o36"D67A304E-1FBD-40D3-A5AE-D3F87CE5D186-
-
-CCompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379947315.073708
-e379947315.356725
-r1
-xCompileC
-xbuild/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.o
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m87fd123389a5b641^f3545b3389a5b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m0000000000000000^3832"CompileC build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.o VPNDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-generated-files.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-own-target-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-all-target-headers.hmap -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-project-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources/i386 -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources -F/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator -include /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch -MMD -MT dependencies -MF /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.dia -c /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/main.m -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/main.o36"99901D68-9132-42C3-AAB9-10267B91AE76-
-
-CCompileXIB /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib
-s379947316.970214
-e379947317.986434
-r1
-xCompileXIB
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compiling /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib6171f83489a5b641^8787fc3589a5b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib0000000000000000^1043"CompileXIB VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/HomeCustomCell.nib /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/Home_Custom_Cell/HomeCustomCell.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"99C58CC2-F826-4924-A585-7BC1CF8C5C39-
-
-CCompileXIB /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.xib
-s379947316.967131
-e379947317.839195
-r1
-xCompileXIB
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compiling /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.xibf7acf73489a5b641^34d6d63589a5b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.xib0000000000000000^1027"CompileXIB VPNDemo/HomeViewController/MasterViewController.xib    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/MasterViewController.nib /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/HomeViewController/MasterViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"84A5C91D-9442-4592-AA42-6396F3525D23-
-
-CCompileXIB /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.xib
-s379947316.967148
-e379947318.391253
-r1
-xCompileXIB
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compiling /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.xibffaef73489a5b641^132a643689a5b641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.xib0000000000000000^1051"CompileXIB VPNDemo/RegistrationPageViewController/DetailViewController.xib    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/DetailViewController.nib /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/RegistrationPageViewController/DetailViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"6E349BBF-008C-4AE5-B67B-A2337C1A5EF0-
-
-CCopyStringsFile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/en.lproj/InfoPlist.strings VPNDemo/en.lproj/InfoPlist.strings
-s379947316.962631
-e379947317.059221
-r1
-xCopyStringsFile
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/en.lproj/InfoPlist.strings
-xVPNDemo/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy VPNDemo/en.lproj/InfoPlist.stringsee94f63489a5b641^09350f3589a5b641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/en.lproj/InfoPlist.strings0000000000000000^631"CopyStringsFile build/Debug-iphonesimulator/VPNDemo.app/en.lproj/InfoPlist.strings VPNDemo/en.lproj/InfoPlist.strings    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/en.lproj -- VPNDemo/en.lproj/InfoPlist.strings36"333CC565-C500-403E-ACB4-BBD6B5B2B99F-
-
-CCpResource VPNDemo/Default-568h@2x.png build/Debug-iphonesimulator/VPNDemo.app/Default-568h@2x.png
-s379947316.962974
-e379947316.969021
-r1
-xCpResource
-xVPNDemo/Default-568h@2x.png
-xbuild/Debug-iphonesimulator/VPNDemo.app/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/VPNDemo.app/Default-568h@2x.png6ea2f63489a5b641^8c12f83489a5b641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Default-568h@2x.png000000000080d041^688"CpResource "VPNDemo/Default-568h@2x.png" "build/Debug-iphonesimulator/VPNDemo.app/Default-568h@2x.png"    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/Default-568h@2x.png" /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app36"EE58E236-2247-473F-B0C4-BDFFDCCFE0B3-
-
-CCpResource VPNDemo/Default.png build/Debug-iphonesimulator/VPNDemo.app/Default.png
-s379947316.962657
-e379947316.965911
-r1
-xCpResource
-xVPNDemo/Default.png
-xbuild/Debug-iphonesimulator/VPNDemo.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/VPNDemo.app/Default.png7495f63489a5b641^7846f73489a5b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Default.png000000000080d041^658"CpResource VPNDemo/Default.png build/Debug-iphonesimulator/VPNDemo.app/Default.png    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/Default.png /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app36"8BC6E6F2-0471-4054-B5F2-E31D199376B4-
-
-CCpResource VPNDemo/Default@2x.png build/Debug-iphonesimulator/VPNDemo.app/Default@2x.png
-s379947316.962796
-e379947316.966436
-r1
-xCpResource
-xVPNDemo/Default@2x.png
-xbuild/Debug-iphonesimulator/VPNDemo.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/VPNDemo.app/Default@2x.pngb799f63489a5b641^f168f73489a5b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Default@2x.png000000000080d041^673"CpResource "VPNDemo/Default@2x.png" "build/Debug-iphonesimulator/VPNDemo.app/Default@2x.png"    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/Default@2x.png" /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app36"9070D78C-05DC-4B7C-8B98-F0EF4F9FB165-
-
-CGenerateDSYMFile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app.dSYM /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo
-s379947316.654785
-e379947316.953441
-r1
-xGenerateDSYMFile
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app.dSYM
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Generating /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app.dSYMddd1a73489a5b641^1a15f43489a5b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app.dSYM000000000080d041^709"GenerateDSYMFile build/Debug-iphonesimulator/VPNDemo.app.dSYM build/Debug-iphonesimulator/VPNDemo.app/VPNDemo    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app.dSYM36"D66A1720-D070-4064-A6D3-230FD8653B00-
-
-CLd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo normal i386
-s379947315.423186
-e379947316.647435
-r1
-xLd
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo946d6c3389a5b641^1ec1a53489a5b641^---0#0#0#--1276"Ld build/Debug-iphonesimulator/VPNDemo.app/VPNDemo normal i386    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator -F/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator -filelist /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/Objects-normal/i386/VPNDemo.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/VPNDemo36"0E2E045E-3EC4-4A5E-B86B-FCBFB6B7419C-
-
-CProcessInfoPlistFile /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Info.plist VPNDemo/VPNDemo-Info.plist
-s379947314.541025
-e379947314.545448
-r1
-xProcessInfoPlistFile
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Info.plist
-xVPNDemo/VPNDemo-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process VPNDemo/VPNDemo-Info.plist26ab8a3289a5b641^a8c68b3289a5b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/VPNDemo-Info.plist0000000000000000^734"ProcessInfoPlistFile build/Debug-iphonesimulator/VPNDemo.app/Info.plist VPNDemo/VPNDemo-Info.plist    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VPNDemo/VPNDemo-Info.plist -genpkginfo /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app/Info.plist36"68AAFF50-F6AF-4D39-A2E5-CD78EBD61768-
-
-CProcessPCH /Users/CHIRAG/Library/Developer/Xcode/DerivedData/VPNDemo-hehgyosnskdsdccldootloslzbys/Index/PrecompiledHeaders/VPNDemo-Prefix-ehztugewqoakngdjvunhukivtfmj_ast/VPNDemo-Prefix.pch.pth VPNDemo/VPNDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.pth VPNDemo/VPNDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379947314.554871
-e379947315.066716
-r1
-xProcessPCH
-x/var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.pth
-xVPNDemo/VPNDemo-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile VPNDemo/VPNDemo-Prefix.pch68af8e3289a5b641^5915113389a5b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/VPNDemo-Prefix.pch0000000000000000^3806"ProcessPCH /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.pth VPNDemo/VPNDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-generated-files.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-own-target-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-all-target-headers.hmap -iquote /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/VPNDemo-project-headers.hmap -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources/i386 -I/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/VPNDemo.build/Debug-iphonesimulator/VPNDemo.build/DerivedSources -F/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.dia -c /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/VPNDemo/VPNDemo-Prefix.pch -o /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/p0/9q0zsdj92j7bnk_xr3b1flnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VPNDemo-Prefix-ekcxjtllnlzsumgafqbdqmprwoqj/VPNDemo-Prefix.pch.d36"30951F53-CDE9-4BF9-8687-D2D67B06F8B2-
-
-CTouch /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app
-s379947318.399318
-e379947318.434764
-r1
-xTouch
-x/Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app2b51663689a5b641^e04d6f3689a5b641^---0#0#0#--444"Touch build/Debug-iphonesimulator/VPNDemo.app    cd /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/CHIRAG/My_Work/Private/SKOGS/VPN/ios/VteevPnieNi-e4/VPNDemo/build/Debug-iphonesimulator/VPNDemo.app36"1EA31142-00E7-405B-8B32-1321F6E614AC-
-
