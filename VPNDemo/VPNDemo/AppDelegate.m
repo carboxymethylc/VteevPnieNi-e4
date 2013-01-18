@@ -10,6 +10,7 @@
 
 #import "MasterViewController.h"
 #import "SetUpViewConroller.h"
+#import "PurchaseViewController.h"
 
 @implementation AppDelegate
 @synthesize tabBarController;
@@ -31,13 +32,21 @@
     
     SetUpViewConroller *setUpViewConroller = [[[SetUpViewConroller alloc] initWithNibName:@"SetUpViewConroller" bundle:nil] autorelease];
 
+    
+    
+    
     UINavigationController*setUpNavigationController = [[[UINavigationController alloc] initWithRootViewController:setUpViewConroller] autorelease];
+    
+    PurchaseViewController*purchaseViewConroller = [[[PurchaseViewController alloc] initWithNibName:@"PurchaseViewController" bundle:nil] autorelease];
+    
+    UINavigationController*purchaseNavigationController = [[[UINavigationController alloc] initWithRootViewController:purchaseViewConroller] autorelease];
     
     
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     
     self.navigationController = [[[UINavigationController alloc] initWithRootViewController:masterViewController] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,setUpNavigationController,nil];
+   
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,setUpNavigationController,purchaseNavigationController,nil];
 
     
     //self.window.rootViewController = self.navigationController;

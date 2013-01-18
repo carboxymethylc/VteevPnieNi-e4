@@ -35,6 +35,10 @@
 		ED7F4EC216A55802008F431A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4EC016A55802008F431A /* DetailViewController.xib */; };
 		ED7F4EC616A55913008F431A /* HomeCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4EC516A55913008F431A /* HomeCustomCell.m */; };
 		ED7F4ED016A55C56008F431A /* HomeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4ECF16A55C56008F431A /* HomeCustomCell.xib */; };
+		EDF99B2116A9446F00E9DD9B /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */; };
+		EDF99B2216A9446F00E9DD9B /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */; };
+		EDF99B2716A944BA00E9DD9B /* PurchaseCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */; };
+		EDF99B2816A944BA00E9DD9B /* PurchaseCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2616A944BA00E9DD9B /* PurchaseCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +79,12 @@
 		ED7F4EC416A55913008F431A /* HomeCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCustomCell.h; sourceTree = "<group>"; };
 		ED7F4EC516A55913008F431A /* HomeCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCustomCell.m; sourceTree = "<group>"; };
 		ED7F4ECF16A55C56008F431A /* HomeCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCustomCell.xib; sourceTree = "<group>"; };
+		EDF99B1E16A9446F00E9DD9B /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
+		EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
+		EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
+		EDF99B2416A944BA00E9DD9B /* PurchaseCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseCustomCell.h; sourceTree = "<group>"; };
+		EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseCustomCell.m; sourceTree = "<group>"; };
+		EDF99B2616A944BA00E9DD9B /* PurchaseCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,20 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4678F7EE16A58D3200D67383 /* ContactUS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ContactUS;
-			sourceTree = "<group>";
-		};
-		4678F7EF16A58D3200D67383 /* Purchase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Purchase;
-			sourceTree = "<group>";
-		};
 		4678F7F016A58D3200D67383 /* SetUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,8 +184,8 @@
 		ED7F4E9416A55468008F431A /* VPNDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4678F7EE16A58D3200D67383 /* ContactUS */,
-				4678F7EF16A58D3200D67383 /* Purchase */,
+				EDF99B1C16A9445D00E9DD9B /* ContactUs */,
+				EDF99B1D16A9445D00E9DD9B /* Purchase */,
 				4678F7F016A58D3200D67383 /* SetUp */,
 				ED7F4EBD16A55802008F431A /* RegistrationPageViewController */,
 				ED7F4EB716A554D2008F431A /* HomeViewController */,
@@ -244,6 +240,34 @@
 				ED7F4EC516A55913008F431A /* HomeCustomCell.m */,
 			);
 			path = Home_Custom_Cell;
+			sourceTree = "<group>";
+		};
+		EDF99B1C16A9445D00E9DD9B /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		EDF99B1D16A9445D00E9DD9B /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				EDF99B2316A944BA00E9DD9B /* Purchase_Custom_Cell */,
+				EDF99B1E16A9446F00E9DD9B /* PurchaseViewController.h */,
+				EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */,
+				EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		EDF99B2316A944BA00E9DD9B /* Purchase_Custom_Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF99B2416A944BA00E9DD9B /* PurchaseCustomCell.h */,
+				EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */,
+				EDF99B2616A944BA00E9DD9B /* PurchaseCustomCell.xib */,
+			);
+			path = Purchase_Custom_Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +339,8 @@
 				4678F81016A5AACC00D67383 /* manual_setup_guide.png in Resources */,
 				4678F81216A5AACC00D67383 /* server_localization.png in Resources */,
 				4678F81316A5AACC00D67383 /* setup_vpn.png in Resources */,
+				EDF99B2216A9446F00E9DD9B /* PurchaseViewController.xib in Resources */,
+				EDF99B2816A944BA00E9DD9B /* PurchaseCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +358,8 @@
 				ED7F4EC616A55913008F431A /* HomeCustomCell.m in Sources */,
 				4678F7F516A5927C00D67383 /* SetUpViewConroller.m in Sources */,
 				4678F7FA16A5936900D67383 /* SetupCustomCell.m in Sources */,
+				EDF99B2116A9446F00E9DD9B /* PurchaseViewController.m in Sources */,
+				EDF99B2716A944BA00E9DD9B /* PurchaseCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

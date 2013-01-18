@@ -1,0 +1,70 @@
+
+Secure-VPN logo:Secure-VPN logo.psd
+
+doc_feedback.doc (*Logo:mail-icon.psd)
+================
+
+Recommend to a friend: psd-chat-icon.psd
+facebook.psd,google.psd,twitter.psd
+Rate US on App Store Write a review: rating-icons.psd
+Email Support Center: customer-service-icon-psd.psd
+
+
+doc_main.doc (Logo:shield-security-icon-psd.psd)
+================
+
+Register a New Account: shield-security-icon-psd.psd
+Select a VPN Plan: psd-guarantee-seal.psd
+List of Protocols: checklist-icon-psd.psd
+Setup VPN on iPhone:psd-gears-icons.psd (black one)
+My Invoices: blank-black-tag.psd
+My VPN Accounts: psd-silver-padlock-security-icon.psd
+My Details: psd-web-user-icons.psd
+
+
+doc_Setup.doc(Logo: psd-hammer-wrench-icon.psd)
+================
+Auto Setup VPN: web-buttons-delete-accept-add-exclude.psd (Blue +)
+Manual Setup Guide: arrows-stickers-set-psd.psd (refresh icon)
+List of VPN Errors: web-buttons-delete-accept-add-exclude.psd (red X)
+Server Locations: global-social-network-icon-psd.psd
+
+
+
+doc_Purchase.doc** (Logo: psd-red-shopping-basket-icon.psd)
+================
+1month.psd
+3month.psd
+6month.psd
+12month.psd
+36month.psd
+
+
+
+
+
+==================================================================================
+*For page top logo + button section logo
+**please make some visible size and config the page nicely with details of each subscription as described on doc_Purchase.doc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
