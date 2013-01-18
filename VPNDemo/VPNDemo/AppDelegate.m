@@ -11,6 +11,8 @@
 #import "MasterViewController.h"
 #import "SetUpViewConroller.h"
 #import "PurchaseViewController.h"
+#import "ContactViewController.h"
+
 
 @implementation AppDelegate
 @synthesize tabBarController;
@@ -42,11 +44,15 @@
     UINavigationController*purchaseNavigationController = [[[UINavigationController alloc] initWithRootViewController:purchaseViewConroller] autorelease];
     
     
+    ContactViewController*contactViewConroller = [[[ContactViewController alloc] initWithNibName:@"ContactViewController" bundle:nil] autorelease];
+
+    UINavigationController*contactNavigationController = [[[UINavigationController alloc] initWithRootViewController:contactViewConroller] autorelease];
+    
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     
     self.navigationController = [[[UINavigationController alloc] initWithRootViewController:masterViewController] autorelease];
    
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,setUpNavigationController,purchaseNavigationController,nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,setUpNavigationController,purchaseNavigationController,contactNavigationController,nil];
 
     
     //self.window.rootViewController = self.navigationController;

@@ -39,6 +39,10 @@
 		EDF99B2216A9446F00E9DD9B /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */; };
 		EDF99B2716A944BA00E9DD9B /* PurchaseCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */; };
 		EDF99B2816A944BA00E9DD9B /* PurchaseCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2616A944BA00E9DD9B /* PurchaseCustomCell.xib */; };
+		EDF99B3016A94C5600E9DD9B /* ContactCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B2B16A94C5600E9DD9B /* ContactCustomCell.m */; };
+		EDF99B3116A94C5600E9DD9B /* ContactCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2C16A94C5600E9DD9B /* ContactCustomCell.xib */; };
+		EDF99B3216A94C5600E9DD9B /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B2E16A94C5600E9DD9B /* ContactViewController.m */; };
+		EDF99B3316A94C5600E9DD9B /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2F16A94C5600E9DD9B /* ContactViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +89,12 @@
 		EDF99B2416A944BA00E9DD9B /* PurchaseCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseCustomCell.h; sourceTree = "<group>"; };
 		EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseCustomCell.m; sourceTree = "<group>"; };
 		EDF99B2616A944BA00E9DD9B /* PurchaseCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseCustomCell.xib; sourceTree = "<group>"; };
+		EDF99B2A16A94C5600E9DD9B /* ContactCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCustomCell.h; sourceTree = "<group>"; };
+		EDF99B2B16A94C5600E9DD9B /* ContactCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCustomCell.m; sourceTree = "<group>"; };
+		EDF99B2C16A94C5600E9DD9B /* ContactCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCustomCell.xib; sourceTree = "<group>"; };
+		EDF99B2D16A94C5600E9DD9B /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		EDF99B2E16A94C5600E9DD9B /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		EDF99B2F16A94C5600E9DD9B /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +255,10 @@
 		EDF99B1C16A9445D00E9DD9B /* ContactUs */ = {
 			isa = PBXGroup;
 			children = (
+				EDF99B2916A94C5600E9DD9B /* Contact_Custom_Cell */,
+				EDF99B2D16A94C5600E9DD9B /* ContactViewController.h */,
+				EDF99B2E16A94C5600E9DD9B /* ContactViewController.m */,
+				EDF99B2F16A94C5600E9DD9B /* ContactViewController.xib */,
 			);
 			path = ContactUs;
 			sourceTree = "<group>";
@@ -268,6 +282,16 @@
 				EDF99B2616A944BA00E9DD9B /* PurchaseCustomCell.xib */,
 			);
 			path = Purchase_Custom_Cell;
+			sourceTree = "<group>";
+		};
+		EDF99B2916A94C5600E9DD9B /* Contact_Custom_Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF99B2A16A94C5600E9DD9B /* ContactCustomCell.h */,
+				EDF99B2B16A94C5600E9DD9B /* ContactCustomCell.m */,
+				EDF99B2C16A94C5600E9DD9B /* ContactCustomCell.xib */,
+			);
+			path = Contact_Custom_Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +365,8 @@
 				4678F81316A5AACC00D67383 /* setup_vpn.png in Resources */,
 				EDF99B2216A9446F00E9DD9B /* PurchaseViewController.xib in Resources */,
 				EDF99B2816A944BA00E9DD9B /* PurchaseCustomCell.xib in Resources */,
+				EDF99B3116A94C5600E9DD9B /* ContactCustomCell.xib in Resources */,
+				EDF99B3316A94C5600E9DD9B /* ContactViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +386,8 @@
 				4678F7FA16A5936900D67383 /* SetupCustomCell.m in Sources */,
 				EDF99B2116A9446F00E9DD9B /* PurchaseViewController.m in Sources */,
 				EDF99B2716A944BA00E9DD9B /* PurchaseCustomCell.m in Sources */,
+				EDF99B3016A94C5600E9DD9B /* ContactCustomCell.m in Sources */,
+				EDF99B3216A94C5600E9DD9B /* ContactViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
