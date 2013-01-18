@@ -15,6 +15,11 @@
 
 
 @implementation AppDelegate
+
+static NSString* kAppId = @"401301426565681";
+@synthesize facebook;
+
+
 @synthesize tabBarController;
 - (void)dealloc
 {
@@ -54,6 +59,76 @@
    
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,setUpNavigationController,purchaseNavigationController,contactNavigationController,nil];
 
+    
+    
+    //Facebook
+    // Initialize Facebook
+    
+    facebook = [[Facebook alloc] initWithAppId:kAppId andDelegate:contactViewConroller];
+    
+    // Check and retrieve authorization information
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:@"FBAccessTokenKey"] && [defaults objectForKey:@"FBExpirationDateKey"])
+    {
+        facebook.accessToken = [defaults objectForKey:@"FBAccessTokenKey"];
+        facebook.expirationDate = [defaults objectForKey:@"FBExpirationDateKey"];
+    }
+    
+    
+    if (!kAppId)
+    {
+        UIAlertView *alertView = [[UIAlertView alloc]
+                                  initWithTitle:@"Setup Error"
+                                  message:@"Missing app ID. You cannot run the app until you provide this in the code."
+                                  delegate:self
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil,
+                                  nil];
+        [alertView show];
+        [alertView release];
+    } else
+    {
+        // Now check that the URL scheme fb[app_id]://authorize is in the .plist and can
+        // be opened, doing a simple check without local app id factored in here
+        NSString *url = [NSString stringWithFormat:@"fb%@://authorize",kAppId];
+        BOOL bSchemeInPlist = NO; // find out if the sceme is in the plist file.
+        NSArray* aBundleURLTypes = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleURLTypes"];
+        if ([aBundleURLTypes isKindOfClass:[NSArray class]] &&
+            ([aBundleURLTypes count] > 0))
+        {
+            NSDictionary* aBundleURLTypes0 = [aBundleURLTypes objectAtIndex:0];
+            if ([aBundleURLTypes0 isKindOfClass:[NSDictionary class]])
+            {
+                NSArray* aBundleURLSchemes = [aBundleURLTypes0 objectForKey:@"CFBundleURLSchemes"];
+                if ([aBundleURLSchemes isKindOfClass:[NSArray class]] &&
+                    ([aBundleURLSchemes count] > 0))
+                {
+                    NSString *scheme = [aBundleURLSchemes objectAtIndex:0];
+                    if ([scheme isKindOfClass:[NSString class]] &&
+                        [url hasPrefix:scheme])
+                    {
+                        bSchemeInPlist = YES;
+                    }
+                }
+            }
+        }
+        // Check if the authorization callback will work
+        BOOL bCanOpenUrl = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString: url]];
+        if (!bSchemeInPlist || !bCanOpenUrl) {
+            UIAlertView *alertView = [[UIAlertView alloc]
+                                      initWithTitle:@"Setup Error"
+                                      message:@"Invalid or missing URL scheme. You cannot run the app until you set up a valid URL scheme in your .plist."
+                                      delegate:self
+                                      cancelButtonTitle:@"OK"
+                                      otherButtonTitles:nil,
+                                      nil];
+            [alertView show];
+            [alertView release];
+        }
+    }
+    
+
+    
     
     //self.window.rootViewController = self.navigationController;
     self.window.rootViewController = self.tabBarController;

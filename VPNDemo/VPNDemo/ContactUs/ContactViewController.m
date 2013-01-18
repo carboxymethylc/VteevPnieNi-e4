@@ -7,7 +7,8 @@
 //
 
 #import "ContactViewController.h"
-
+#import <Twitter/Twitter.h>
+#import "DETweetComposeViewController.h"
 @interface ContactViewController ()
 
 @end
@@ -114,6 +115,48 @@
 
 
 
+-(IBAction)share_button_clicked:(id)sender
+{
+    DETweetComposeViewControllerCompletionHandler completionHandler = ^(DETweetComposeViewControllerResult result) {
+        switch (result)
+        {
+            case DETweetComposeViewControllerResultCancelled:
+                NSLog(@"Twitter Result: Cancelled");
+                break;
+            case DETweetComposeViewControllerResultDone:
+                NSLog(@"Twitter Result: Sent");
+                break;
+        }
+        [self dismissModalViewControllerAnimated:YES];
+    };
+    
+    DETweetComposeViewController *tcvc = [[[DETweetComposeViewController alloc] init] autorelease];
+    self.modalPresentationStyle = UIModalPresentationCurrentContext;
+    [self addTweetContent:tcvc];
+    tcvc.completionHandler = completionHandler;
+    
+    // Optionally, set alwaysUseDETwitterCredentials to YES to prevent using
+    //  iOS5 Twitter credentials.
+    //    tcvc.alwaysUseDETwitterCredentials = YES;
+    [self presentModalViewController:tcvc animated:YES];
+
+}
+
+
+- (void)addTweetContent:(id)tcvc
+{
+    
+    /*
+     [tcvc addImage:[UIImage imageNamed:@"YawkeyBusinessDog.jpg"]];
+     [tcvc addImage:[UIImage imageNamed:@"YawkeyCleanTeeth.jpg"]];  // This one won't actually work. Only one image per tweet allowed currently by Twitter.
+     [tcvc addURL:[NSURL URLWithString:@"http://www.DoubleEncore.com/"]];
+     [tcvc addURL:[NSURL URLWithString:@"http://www.apple.com/ios/features.html#twitter"]];
+     [tcvc addURL:[NSURL URLWithString:@"http://www.twitter.com/"]];  // This won't work either. Only three URLs allowed, just like Apple's implementation.
+     
+     */
+    NSString *tweetText = @"test";
+    [tcvc setInitialText:tweetText];
+}
 
 - (void)didReceiveMemoryWarning
 {

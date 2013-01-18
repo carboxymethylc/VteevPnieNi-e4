@@ -8,6 +8,10 @@
 
 #import "ContactCustomCell.h"
 
+
+
+
+
 @implementation ContactCustomCell
 @synthesize sub_service_label,service_label,plan_imageView;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
@@ -35,6 +39,8 @@
     [super layoutSubviews];
 }
 
+
+
 -(void)dealloc
 {
     [sub_service_label release];
@@ -42,4 +48,7 @@
     [plan_imageView release];
     [super dealloc];
 }
+
+
+
 @end

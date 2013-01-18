@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "Contact_Custom_Cell/ContactCustomCell.h"
-@interface ContactViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+#import "AppDelegate.h"
+#import "FBConnect.h"
+
+@interface ContactViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,
+FBRequestDelegate,FBDialogDelegate,FBSessionDelegate
+>
 {
     
     ContactCustomCell*contact_custom_cell;
@@ -24,4 +29,6 @@
 @property (nonatomic, retain) IBOutlet ContactCustomCell*contact_custom_cell;
 @property (nonatomic, retain) UINib *cellNib;
 
+-(IBAction)share_button_clicked:(id)sender;
+- (void)addTweetContent:(id)tcvc;
 @end
