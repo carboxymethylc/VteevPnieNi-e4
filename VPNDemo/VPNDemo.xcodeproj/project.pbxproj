@@ -20,6 +20,12 @@
 		4678F81016A5AACC00D67383 /* manual_setup_guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80C16A5AACC00D67383 /* manual_setup_guide.png */; };
 		4678F81216A5AACC00D67383 /* server_localization.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80E16A5AACC00D67383 /* server_localization.png */; };
 		4678F81316A5AACC00D67383 /* setup_vpn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678F80F16A5AACC00D67383 /* setup_vpn.png */; };
+		469A19DE16AB01650086A639 /* 12month.png in Resources */ = {isa = PBXBuildFile; fileRef = 469A19D916AB01650086A639 /* 12month.png */; };
+		469A19DF16AB01650086A639 /* 1month.png in Resources */ = {isa = PBXBuildFile; fileRef = 469A19DA16AB01650086A639 /* 1month.png */; };
+		469A19E016AB01650086A639 /* 36month.png in Resources */ = {isa = PBXBuildFile; fileRef = 469A19DB16AB01650086A639 /* 36month.png */; };
+		469A19E116AB01650086A639 /* 3month.png in Resources */ = {isa = PBXBuildFile; fileRef = 469A19DC16AB01650086A639 /* 3month.png */; };
+		469A19E216AB01650086A639 /* 6month.png in Resources */ = {isa = PBXBuildFile; fileRef = 469A19DD16AB01650086A639 /* 6month.png */; };
+		469A19E416AB0D870086A639 /* shopping_purchase.png in Resources */ = {isa = PBXBuildFile; fileRef = 469A19E316AB0D870086A639 /* shopping_purchase.png */; };
 		ED7F4E8F16A55468008F431A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E8E16A55468008F431A /* UIKit.framework */; };
 		ED7F4E9116A55468008F431A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E9016A55468008F431A /* Foundation.framework */; };
 		ED7F4E9316A55468008F431A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F4E9216A55468008F431A /* CoreGraphics.framework */; };
@@ -143,6 +149,12 @@
 		4678F80C16A5AACC00D67383 /* manual_setup_guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manual_setup_guide.png; sourceTree = "<group>"; };
 		4678F80E16A5AACC00D67383 /* server_localization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = server_localization.png; sourceTree = "<group>"; };
 		4678F80F16A5AACC00D67383 /* setup_vpn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup_vpn.png; sourceTree = "<group>"; };
+		469A19D916AB01650086A639 /* 12month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12month.png; sourceTree = "<group>"; };
+		469A19DA16AB01650086A639 /* 1month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1month.png; sourceTree = "<group>"; };
+		469A19DB16AB01650086A639 /* 36month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36month.png; sourceTree = "<group>"; };
+		469A19DC16AB01650086A639 /* 3month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3month.png; sourceTree = "<group>"; };
+		469A19DD16AB01650086A639 /* 6month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6month.png; sourceTree = "<group>"; };
+		469A19E316AB0D870086A639 /* shopping_purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_purchase.png; sourceTree = "<group>"; };
 		ED7F4E8A16A55468008F431A /* VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7F4E8E16A55468008F431A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED7F4E9016A55468008F431A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -335,6 +347,7 @@
 		4678F7FD16A59A8A00D67383 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				469A19D816AB01650086A639 /* purchase */,
 				4678F80B16A5AACC00D67383 /* setup */,
 				4678F7FE16A59A8A00D67383 /* Main */,
 			);
@@ -362,6 +375,19 @@
 				4678F80F16A5AACC00D67383 /* setup_vpn.png */,
 			);
 			path = setup;
+			sourceTree = "<group>";
+		};
+		469A19D816AB01650086A639 /* purchase */ = {
+			isa = PBXGroup;
+			children = (
+				469A19E316AB0D870086A639 /* shopping_purchase.png */,
+				469A19D916AB01650086A639 /* 12month.png */,
+				469A19DA16AB01650086A639 /* 1month.png */,
+				469A19DB16AB01650086A639 /* 36month.png */,
+				469A19DC16AB01650086A639 /* 3month.png */,
+				469A19DD16AB01650086A639 /* 6month.png */,
+			);
+			path = purchase;
 			sourceTree = "<group>";
 		};
 		ED7F4E7F16A55468008F431A = {
@@ -891,6 +917,12 @@
 				EDBAFBD216A97673008938D3 /* DETweetURLAttachment@2x.png in Resources */,
 				EDBAFBDC16A97673008938D3 /* tclose.png in Resources */,
 				EDBAFBDD16A97673008938D3 /* ticon.png in Resources */,
+				469A19DE16AB01650086A639 /* 12month.png in Resources */,
+				469A19DF16AB01650086A639 /* 1month.png in Resources */,
+				469A19E016AB01650086A639 /* 36month.png in Resources */,
+				469A19E116AB01650086A639 /* 3month.png in Resources */,
+				469A19E216AB01650086A639 /* 6month.png in Resources */,
+				469A19E416AB0D870086A639 /* shopping_purchase.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

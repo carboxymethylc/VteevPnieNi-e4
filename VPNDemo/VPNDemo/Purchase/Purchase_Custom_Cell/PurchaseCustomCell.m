@@ -9,7 +9,7 @@
 #import "PurchaseCustomCell.h"
 
 @implementation PurchaseCustomCell
-@synthesize sub_service_label,service_label,plan_imageView;
+@synthesize service_label_1,service_label_2,service_label_3,service_label_4,service_label_5,service_label_6,plan_imageView;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -37,8 +37,14 @@
 
 -(void)dealloc
 {
-    [sub_service_label release];
-    [service_label release];
+    
+    [service_label_1 release];
+    [service_label_2 release];
+    [service_label_3 release];
+    [service_label_4 release];
+    [service_label_5 release];
+    [service_label_6 release];
+    
     [plan_imageView release];
     [super dealloc];
 }
