@@ -2,8 +2,8 @@
 //  HomeCustomCell.h
 //  VPNDemo
 //
-//  Created by Chirag@Sunshine on 15/01/13.
-//  Copyright (c) 2013 SunshineInfotech. All rights reserved.
+//  Created by  on 15/01/13.
+//  Copyright (c) 2013 Andrew John. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -16,7 +16,6 @@
     IBOutlet UILabel*service_label_4;
     IBOutlet UILabel*service_label_5;
     IBOutlet UILabel*service_label_6;
-    
     
     IBOutlet UIImageView*plan_imageView;
     

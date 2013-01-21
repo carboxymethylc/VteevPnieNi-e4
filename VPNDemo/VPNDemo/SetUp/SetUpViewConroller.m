@@ -3,7 +3,7 @@
 //  VPNDemo
 //
 //  Created by LD.Chirag on 1/15/13.
-//  Copyright (c) 2013 SunshineInfotech. All rights reserved.
+//  Copyright (c) 2013 Andrew John. All rights reserved.
 //
 
 #import "SetUpViewConroller.h"
