@@ -113,6 +113,10 @@
 		EDBAFBE816A976D9008938D3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBAFBE716A976D9008938D3 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EDBAFBEE16A9782C008938D3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBAFBED16A9782C008938D3 /* MessageUI.framework */; };
 		EDBAFBF016A97875008938D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBAFBEF16A97875008938D3 /* SystemConfiguration.framework */; };
+		EDEB76C116AD014C00A202AA /* WebviewDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB76BF16AD014C00A202AA /* WebviewDisplayViewController.m */; };
+		EDEB76C216AD014C00A202AA /* WebviewDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEB76C016AD014C00A202AA /* WebviewDisplayViewController.xib */; };
+		EDEB76CE16AD07F200A202AA /* nav_hammer_wrench_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB76CD16AD07F200A202AA /* nav_hammer_wrench_icon.png */; };
+		EDEB76F816AD3F0F00A202AA /* nav_shield-security-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB76F716AD3F0F00A202AA /* nav_shield-security-icon.png */; };
 		EDF99B2116A9446F00E9DD9B /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */; };
 		EDF99B2216A9446F00E9DD9B /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */; };
 		EDF99B2716A944BA00E9DD9B /* PurchaseCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */; };
@@ -290,6 +294,11 @@
 		EDBAFBE716A976D9008938D3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		EDBAFBED16A9782C008938D3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		EDBAFBEF16A97875008938D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EDEB76BE16AD014C00A202AA /* WebviewDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebviewDisplayViewController.h; sourceTree = "<group>"; };
+		EDEB76BF16AD014C00A202AA /* WebviewDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebviewDisplayViewController.m; sourceTree = "<group>"; };
+		EDEB76C016AD014C00A202AA /* WebviewDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebviewDisplayViewController.xib; sourceTree = "<group>"; };
+		EDEB76CD16AD07F200A202AA /* nav_hammer_wrench_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_hammer_wrench_icon.png; sourceTree = "<group>"; };
+		EDEB76F716AD3F0F00A202AA /* nav_shield-security-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_shield-security-icon.png"; sourceTree = "<group>"; };
 		EDF99B1E16A9446F00E9DD9B /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
 		EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
 		EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
@@ -357,6 +366,7 @@
 		4678F7FE16A59A8A00D67383 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				EDEB76F716AD3F0F00A202AA /* nav_shield-security-icon.png */,
 				4678F7FF16A59A8A00D67383 /* list_of_protocols.png */,
 				4678F80016A59A8A00D67383 /* my_detail.png */,
 				4678F80116A59A8A00D67383 /* my_invoices.png */,
@@ -370,6 +380,7 @@
 		4678F80B16A5AACC00D67383 /* setup */ = {
 			isa = PBXGroup;
 			children = (
+				EDEB76CD16AD07F200A202AA /* nav_hammer_wrench_icon.png */,
 				4678F80C16A5AACC00D67383 /* manual_setup_guide.png */,
 				4678F80E16A5AACC00D67383 /* server_localization.png */,
 				4678F80F16A5AACC00D67383 /* setup_vpn.png */,
@@ -425,6 +436,7 @@
 		ED7F4E9416A55468008F431A /* VPNDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EDEB76BD16AD013200A202AA /* WebviewDisplayViewController */,
 				EDBAFB1816A97673008938D3 /* Share */,
 				EDF99B1C16A9445D00E9DD9B /* ContactUs */,
 				EDF99B1D16A9445D00E9DD9B /* Purchase */,
@@ -751,6 +763,16 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		EDEB76BD16AD013200A202AA /* WebviewDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB76BE16AD014C00A202AA /* WebviewDisplayViewController.h */,
+				EDEB76BF16AD014C00A202AA /* WebviewDisplayViewController.m */,
+				EDEB76C016AD014C00A202AA /* WebviewDisplayViewController.xib */,
+			);
+			path = WebviewDisplayViewController;
+			sourceTree = "<group>";
+		};
 		EDF99B1C16A9445D00E9DD9B /* ContactUs */ = {
 			isa = PBXGroup;
 			children = (
@@ -923,6 +945,9 @@
 				469A19E116AB01650086A639 /* 3month.png in Resources */,
 				469A19E216AB01650086A639 /* 6month.png in Resources */,
 				469A19E416AB0D870086A639 /* shopping_purchase.png in Resources */,
+				EDEB76C216AD014C00A202AA /* WebviewDisplayViewController.xib in Resources */,
+				EDEB76CE16AD07F200A202AA /* nav_hammer_wrench_icon.png in Resources */,
+				EDEB76F816AD3F0F00A202AA /* nav_shield-security-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,6 +1001,7 @@
 				EDBAFBDA16A97673008938D3 /* NSString+URLEncoding.m in Sources */,
 				EDBAFBDB16A97673008938D3 /* OAuth.m in Sources */,
 				EDBAFBDE16A97673008938D3 /* TwitterDialog.m in Sources */,
+				EDEB76C116AD014C00A202AA /* WebviewDisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

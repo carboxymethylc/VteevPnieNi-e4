@@ -13,7 +13,8 @@
 
 
 @implementation ContactCustomCell
-@synthesize sub_service_label,service_label,plan_imageView;
+@synthesize service_label;
+@synthesize btn_google_plus,btn_fb,btn_twitter,service_detail_label;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -43,9 +44,12 @@
 
 -(void)dealloc
 {
-    [sub_service_label release];
+    [btn_google_plus release];
+    [btn_fb release];
+    [btn_twitter release];
+    
     [service_label release];
-    [plan_imageView release];
+
     [super dealloc];
 }
 

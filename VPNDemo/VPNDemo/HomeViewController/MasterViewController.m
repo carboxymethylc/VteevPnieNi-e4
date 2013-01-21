@@ -7,7 +7,7 @@
 //
 
 #import "MasterViewController.h"
-
+#import "WebviewDisplayViewController.h"
 
 
 
@@ -36,7 +36,16 @@
 {
     [super viewDidLoad];
     
+    self.navigationItem.titleView = navigation_view;
     
+    url_array = [[NSMutableArray alloc] initWithObjects:
+                 @"http://billing.secure-vpn.com/register.php",
+                 @"http://billing.secure-vpn.com/cart.php",
+                 @"http://billing.secure-vpn.com/protocols.htm",
+                 @"http://C/Users/MOHET/Desktop/VPN_/revpn/ios.secure-vpn.com/s.mobileconfig",
+                 @"http://billing.secure-vpn.com/clientarea.php?action=invoices",
+                 @"http://billing.secure-vpn.com/clientarea.php?action=details", nil];
+
     
     image_array = [[NSMutableArray alloc] initWithObjects:
                      @"register.png",
@@ -127,6 +136,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
+    WebviewDisplayViewController *viewController = [[WebviewDisplayViewController alloc] init];
+    viewController.navigation_title = @"Main";
+    viewController.load_url =[url_array objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:viewController animated:TRUE];
+    [viewController release];
+    
     NSLog(@"\n didSelectRowAtIndexPath = %d",indexPath.row);
 }
 

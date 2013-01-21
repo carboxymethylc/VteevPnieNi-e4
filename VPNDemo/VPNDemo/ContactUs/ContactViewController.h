@@ -10,9 +10,11 @@
 #import "Contact_Custom_Cell/ContactCustomCell.h"
 #import "AppDelegate.h"
 #import "FBConnect.h"
+#import <MessageUI/MFMailComposeViewController.h>
+#import <MessageUI/MFMessageComposeViewController.h>
 
 @interface ContactViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,
-FBRequestDelegate,FBDialogDelegate,FBSessionDelegate
+FBRequestDelegate,FBDialogDelegate,FBSessionDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,MFMessageComposeViewControllerDelegate
 >
 {
     
@@ -21,14 +23,27 @@ FBRequestDelegate,FBDialogDelegate,FBSessionDelegate
     IBOutlet UITableView*contact_tableView;
     
     
-    NSMutableArray*image_array;
-    NSMutableArray*service_array;
-    NSMutableArray*sub_service_array;
+   
+    
+    IBOutlet UIView*navigation_view;
+    
+    NSArray *permissions;
+    AppDelegate * appDelegate;
+
+    MFMailComposeViewController *controllerMail;
 }
 
 @property (nonatomic, retain) IBOutlet ContactCustomCell*contact_custom_cell;
 @property (nonatomic, retain) UINib *cellNib;
 
+
+
+
+
+
 -(IBAction)share_button_clicked:(id)sender;
 - (void)addTweetContent:(id)tcvc;
+-(void)postPictureToFB;
+
+
 @end

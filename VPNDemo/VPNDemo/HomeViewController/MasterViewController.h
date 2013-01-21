@@ -21,6 +21,10 @@
     NSMutableArray*service_array;
     NSMutableArray*sub_service_array;
     
+     NSMutableArray*url_array;
+    
+     IBOutlet UIView*navigation_view;
+    
 }
 
 @property (strong, nonatomic) DetailViewController *detailViewController;

@@ -7,7 +7,7 @@
 //
 
 #import "SetUpViewConroller.h"
-
+#import "WebviewDisplayViewController.h"
 @interface SetUpViewConroller ()
 
 @end
@@ -30,7 +30,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+     self.navigationItem.titleView = navigation_view;
     
+    
+    url_array = [[NSMutableArray alloc] initWithObjects:
+                 @"http://billing.secure-vpn.com/clientarea.php",
+                 @"http://billing.secure-vpn.com/faq.htm",
+                 @"http://billing.secure-vpn.com/errors.htm",
+                 @"http://billing.secure-vpn.com/servers.htm", nil];
     
     
     image_array = [[NSMutableArray alloc] initWithObjects:
@@ -110,6 +117,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
+    WebviewDisplayViewController *viewController = [[WebviewDisplayViewController alloc] init];
+    viewController.navigation_title = @"Setup";
+    viewController.load_url =[url_array objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:viewController animated:TRUE];
+    [viewController release];
+    
     NSLog(@"\n didSelectRowAtIndexPath = %d",indexPath.row);
 }
 

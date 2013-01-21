@@ -11,14 +11,23 @@
 @interface ContactCustomCell : UITableViewCell
 {
     IBOutlet UILabel*service_label;
-    IBOutlet UILabel*sub_service_label;
-    IBOutlet UIImageView*plan_imageView;
+    IBOutlet UILabel*service_detail_label;
+
+    
+    IBOutlet UIButton*btn_fb;
+    IBOutlet UIButton*btn_twitter;
+    IBOutlet UIButton*btn_google_plus;
     
    
 }
 @property(nonatomic,retain)   IBOutlet UILabel*service_label;
-@property(nonatomic,retain)   IBOutlet UILabel*sub_service_label;
-@property(nonatomic,retain)   IBOutlet UIImageView*plan_imageView;
 
+
+
+@property (nonatomic, retain) IBOutlet  UIButton*btn_fb;
+@property (nonatomic, retain) IBOutlet UIButton*btn_twitter;
+@property (nonatomic, retain) IBOutlet UIButton*btn_google_plus;
+
+@property (nonatomic, retain) IBOutlet UILabel*service_detail_label;
 
 @end
