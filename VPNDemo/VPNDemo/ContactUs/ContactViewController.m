@@ -303,6 +303,20 @@
         case 1003:
         {
             
+            id<GPPShareBuilder> shareBuilder = [share_ shareDialog];
+            
+            NSString *inputText = @"Messanger";
+            NSString *text = [inputText length] ? inputText : nil;
+            if (text)
+            {
+                shareBuilder = [shareBuilder setPrefillText:text];
+            }
+            
+            if (![shareBuilder open])
+            {
+               NSLog(@"Status: Error (see console).");
+            }
+
             
             break;
             
@@ -316,6 +330,14 @@
 
 }
 
+
+#pragma mark - GPPShareDelegate
+
+- (void)finishedSharing:(BOOL)shared
+{
+    NSString *text = shared ? @"Success" : @"Canceled";
+    NSLog(@"\n text = %@",text);
+}
 
 -(void)postPictureToFB
 {

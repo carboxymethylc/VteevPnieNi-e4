@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FBConnect.h"
+@class GPPShare;
 @interface AppDelegate : UIResponder <UIApplicationDelegate,UITabBarControllerDelegate>
 {
     Facebook *facebook;
@@ -17,4 +18,9 @@
 
 @property (strong, nonatomic) UINavigationController *navigationController;
 @property (strong, nonatomic) UITabBarController *tabBarController;
+
+// The Google+ share object to handle the URL redirect.
+@property (retain, nonatomic) GPPShare *share;
+
+
 @end

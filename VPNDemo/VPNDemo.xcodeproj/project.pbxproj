@@ -117,6 +117,47 @@
 		EDEB76C216AD014C00A202AA /* WebviewDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEB76C016AD014C00A202AA /* WebviewDisplayViewController.xib */; };
 		EDEB76CE16AD07F200A202AA /* nav_hammer_wrench_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB76CD16AD07F200A202AA /* nav_hammer_wrench_icon.png */; };
 		EDEB76F816AD3F0F00A202AA /* nav_shield-security-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB76F716AD3F0F00A202AA /* nav_shield-security-icon.png */; };
+		EDEB77B116AD65E500A202AA /* google_plus_share.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB775D16AD65E500A202AA /* google_plus_share.png */; };
+		EDEB77B216AD65E500A202AA /* google_plus_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB775E16AD65E500A202AA /* google_plus_share@2x.png */; };
+		EDEB77B316AD65E500A202AA /* google_plus_share_large.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB775F16AD65E500A202AA /* google_plus_share_large.png */; };
+		EDEB77B416AD65E500A202AA /* google_plus_share_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB776016AD65E500A202AA /* google_plus_share_large@2x.png */; };
+		EDEB77B516AD65E500A202AA /* google_plus_sign_in.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB776116AD65E500A202AA /* google_plus_sign_in.png */; };
+		EDEB77B616AD65E500A202AA /* google_plus_sign_in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB776216AD65E500A202AA /* google_plus_sign_in@2x.png */; };
+		EDEB77B716AD65E500A202AA /* google_plus_sign_in_wide.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB776316AD65E500A202AA /* google_plus_sign_in_wide.png */; };
+		EDEB77B816AD65E500A202AA /* google_plus_sign_in_wide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEB776416AD65E500A202AA /* google_plus_sign_in_wide@2x.png */; };
+		EDEB77BA16AD65E500A202AA /* libGooglePlusUniversal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEB776B16AD65E500A202AA /* libGooglePlusUniversal.a */; };
+		EDEB77BB16AD65E500A202AA /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB776F16AD65E500A202AA /* GTLBase64.m */; };
+		EDEB77BC16AD65E500A202AA /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB777116AD65E500A202AA /* GTLBatchQuery.m */; };
+		EDEB77BD16AD65E500A202AA /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB777316AD65E500A202AA /* GTLBatchResult.m */; };
+		EDEB77BE16AD65E500A202AA /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB777516AD65E500A202AA /* GTLDateTime.m */; };
+		EDEB77BF16AD65E500A202AA /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB777816AD65E500A202AA /* GTLErrorObject.m */; };
+		EDEB77C016AD65E500A202AA /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB777A16AD65E500A202AA /* GTLFramework.m */; };
+		EDEB77C116AD65E500A202AA /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB777C16AD65E500A202AA /* GTLJSONParser.m */; };
+		EDEB77C216AD65E500A202AA /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB777E16AD65E500A202AA /* GTLObject.m */; };
+		EDEB77C316AD65E500A202AA /* GTLPlusConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB778216AD65E500A202AA /* GTLPlusConstants.m */; };
+		EDEB77C416AD65E500A202AA /* GTLPlusItemScope.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB778416AD65E500A202AA /* GTLPlusItemScope.m */; };
+		EDEB77C516AD65E500A202AA /* GTLPlusMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB778616AD65E500A202AA /* GTLPlusMoment.m */; };
+		EDEB77C616AD65E500A202AA /* GTLQueryPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB778816AD65E500A202AA /* GTLQueryPlus.m */; };
+		EDEB77C716AD65E500A202AA /* GTLServicePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB778A16AD65E500A202AA /* GTLServicePlus.m */; };
+		EDEB77C816AD65E500A202AA /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB778C16AD65E500A202AA /* GTLQuery.m */; };
+		EDEB77C916AD65E500A202AA /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB778E16AD65E500A202AA /* GTLRuntimeCommon.m */; };
+		EDEB77CA16AD65E500A202AA /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB779016AD65E500A202AA /* GTLService.m */; };
+		EDEB77CB16AD65E500A202AA /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB779316AD65E500A202AA /* GTLUploadParameters.m */; };
+		EDEB77CC16AD65E500A202AA /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB779516AD65E500A202AA /* GTLUtilities.m */; };
+		EDEB77CD16AD65E500A202AA /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB779916AD65E500A202AA /* GTMHTTPFetcher.m */; };
+		EDEB77CE16AD65E500A202AA /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB779B16AD65E500A202AA /* GTMHTTPFetcherLogging.m */; };
+		EDEB77CF16AD65E500A202AA /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB779D16AD65E500A202AA /* GTMHTTPFetcherService.m */; };
+		EDEB77D016AD65E500A202AA /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB779F16AD65E500A202AA /* GTMHTTPFetchHistory.m */; };
+		EDEB77D116AD65E500A202AA /* GTMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77A116AD65E500A202AA /* GTMLogger.m */; };
+		EDEB77D216AD65E500A202AA /* GTMMethodCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77A316AD65E500A202AA /* GTMMethodCheck.m */; };
+		EDEB77D316AD65E500A202AA /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77A516AD65E500A202AA /* GTMNSDictionary+URLArguments.m */; };
+		EDEB77D416AD65E500A202AA /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77A716AD65E500A202AA /* GTMNSString+URLArguments.m */; };
+		EDEB77D516AD65E500A202AA /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77A916AD65E500A202AA /* GTMOAuth2Authentication.m */; };
+		EDEB77D616AD65E500A202AA /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77AB16AD65E500A202AA /* GTMOAuth2SignIn.m */; };
+		EDEB77D716AD65E500A202AA /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77AD16AD65E500A202AA /* GTMOAuth2ViewControllerTouch.m */; };
+		EDEB77D816AD65E500A202AA /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEB77AE16AD65E500A202AA /* GTMOAuth2ViewTouch.xib */; };
+		EDEB77D916AD65E500A202AA /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77B016AD65E500A202AA /* GTMObjC2Runtime.m */; };
+		EDEB77DB16AD662A00A202AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEB77DA16AD662A00A202AA /* Security.framework */; };
 		EDF99B2116A9446F00E9DD9B /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */; };
 		EDF99B2216A9446F00E9DD9B /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */; };
 		EDF99B2716A944BA00E9DD9B /* PurchaseCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */; };
@@ -299,6 +340,87 @@
 		EDEB76C016AD014C00A202AA /* WebviewDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebviewDisplayViewController.xib; sourceTree = "<group>"; };
 		EDEB76CD16AD07F200A202AA /* nav_hammer_wrench_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_hammer_wrench_icon.png; sourceTree = "<group>"; };
 		EDEB76F716AD3F0F00A202AA /* nav_shield-security-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_shield-security-icon.png"; sourceTree = "<group>"; };
+		EDEB775D16AD65E500A202AA /* google_plus_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_plus_share.png; sourceTree = "<group>"; };
+		EDEB775E16AD65E500A202AA /* google_plus_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google_plus_share@2x.png"; sourceTree = "<group>"; };
+		EDEB775F16AD65E500A202AA /* google_plus_share_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_plus_share_large.png; sourceTree = "<group>"; };
+		EDEB776016AD65E500A202AA /* google_plus_share_large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google_plus_share_large@2x.png"; sourceTree = "<group>"; };
+		EDEB776116AD65E500A202AA /* google_plus_sign_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_plus_sign_in.png; sourceTree = "<group>"; };
+		EDEB776216AD65E500A202AA /* google_plus_sign_in@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google_plus_sign_in@2x.png"; sourceTree = "<group>"; };
+		EDEB776316AD65E500A202AA /* google_plus_sign_in_wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_plus_sign_in_wide.png; sourceTree = "<group>"; };
+		EDEB776416AD65E500A202AA /* google_plus_sign_in_wide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google_plus_sign_in_wide@2x.png"; sourceTree = "<group>"; };
+		EDEB776616AD65E500A202AA /* GPPDeepLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPDeepLink.h; sourceTree = "<group>"; };
+		EDEB776716AD65E500A202AA /* GPPShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPShare.h; sourceTree = "<group>"; };
+		EDEB776816AD65E500A202AA /* GPPSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPSignIn.h; sourceTree = "<group>"; };
+		EDEB776916AD65E500A202AA /* GPPSignInButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPSignInButton.h; sourceTree = "<group>"; };
+		EDEB776A16AD65E500A202AA /* libGooglePlus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGooglePlus.a; sourceTree = "<group>"; };
+		EDEB776B16AD65E500A202AA /* libGooglePlusUniversal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGooglePlusUniversal.a; sourceTree = "<group>"; };
+		EDEB776E16AD65E500A202AA /* GTLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBase64.h; sourceTree = "<group>"; };
+		EDEB776F16AD65E500A202AA /* GTLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBase64.m; sourceTree = "<group>"; };
+		EDEB777016AD65E500A202AA /* GTLBatchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchQuery.h; sourceTree = "<group>"; };
+		EDEB777116AD65E500A202AA /* GTLBatchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchQuery.m; sourceTree = "<group>"; };
+		EDEB777216AD65E500A202AA /* GTLBatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchResult.h; sourceTree = "<group>"; };
+		EDEB777316AD65E500A202AA /* GTLBatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchResult.m; sourceTree = "<group>"; };
+		EDEB777416AD65E500A202AA /* GTLDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDateTime.h; sourceTree = "<group>"; };
+		EDEB777516AD65E500A202AA /* GTLDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDateTime.m; sourceTree = "<group>"; };
+		EDEB777616AD65E500A202AA /* GTLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDefines.h; sourceTree = "<group>"; };
+		EDEB777716AD65E500A202AA /* GTLErrorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLErrorObject.h; sourceTree = "<group>"; };
+		EDEB777816AD65E500A202AA /* GTLErrorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLErrorObject.m; sourceTree = "<group>"; };
+		EDEB777916AD65E500A202AA /* GTLFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLFramework.h; sourceTree = "<group>"; };
+		EDEB777A16AD65E500A202AA /* GTLFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLFramework.m; sourceTree = "<group>"; };
+		EDEB777B16AD65E500A202AA /* GTLJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLJSONParser.h; sourceTree = "<group>"; };
+		EDEB777C16AD65E500A202AA /* GTLJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLJSONParser.m; sourceTree = "<group>"; };
+		EDEB777D16AD65E500A202AA /* GTLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLObject.h; sourceTree = "<group>"; };
+		EDEB777E16AD65E500A202AA /* GTLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLObject.m; sourceTree = "<group>"; };
+		EDEB778016AD65E500A202AA /* GTLPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLPlus.h; sourceTree = "<group>"; };
+		EDEB778116AD65E500A202AA /* GTLPlusConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLPlusConstants.h; sourceTree = "<group>"; };
+		EDEB778216AD65E500A202AA /* GTLPlusConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLPlusConstants.m; sourceTree = "<group>"; };
+		EDEB778316AD65E500A202AA /* GTLPlusItemScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLPlusItemScope.h; sourceTree = "<group>"; };
+		EDEB778416AD65E500A202AA /* GTLPlusItemScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLPlusItemScope.m; sourceTree = "<group>"; };
+		EDEB778516AD65E500A202AA /* GTLPlusMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLPlusMoment.h; sourceTree = "<group>"; };
+		EDEB778616AD65E500A202AA /* GTLPlusMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLPlusMoment.m; sourceTree = "<group>"; };
+		EDEB778716AD65E500A202AA /* GTLQueryPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryPlus.h; sourceTree = "<group>"; };
+		EDEB778816AD65E500A202AA /* GTLQueryPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryPlus.m; sourceTree = "<group>"; };
+		EDEB778916AD65E500A202AA /* GTLServicePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServicePlus.h; sourceTree = "<group>"; };
+		EDEB778A16AD65E500A202AA /* GTLServicePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServicePlus.m; sourceTree = "<group>"; };
+		EDEB778B16AD65E500A202AA /* GTLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuery.h; sourceTree = "<group>"; };
+		EDEB778C16AD65E500A202AA /* GTLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuery.m; sourceTree = "<group>"; };
+		EDEB778D16AD65E500A202AA /* GTLRuntimeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRuntimeCommon.h; sourceTree = "<group>"; };
+		EDEB778E16AD65E500A202AA /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRuntimeCommon.m; sourceTree = "<group>"; };
+		EDEB778F16AD65E500A202AA /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLService.h; sourceTree = "<group>"; };
+		EDEB779016AD65E500A202AA /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLService.m; sourceTree = "<group>"; };
+		EDEB779116AD65E500A202AA /* GTLTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLTargetNamespace.h; sourceTree = "<group>"; };
+		EDEB779216AD65E500A202AA /* GTLUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUploadParameters.h; sourceTree = "<group>"; };
+		EDEB779316AD65E500A202AA /* GTLUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUploadParameters.m; sourceTree = "<group>"; };
+		EDEB779416AD65E500A202AA /* GTLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUtilities.h; sourceTree = "<group>"; };
+		EDEB779516AD65E500A202AA /* GTLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUtilities.m; sourceTree = "<group>"; };
+		EDEB779616AD65E500A202AA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		EDEB779716AD65E500A202AA /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
+		EDEB779816AD65E500A202AA /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		EDEB779916AD65E500A202AA /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		EDEB779A16AD65E500A202AA /* GTMHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherLogging.h; sourceTree = "<group>"; };
+		EDEB779B16AD65E500A202AA /* GTMHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherLogging.m; sourceTree = "<group>"; };
+		EDEB779C16AD65E500A202AA /* GTMHTTPFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherService.h; sourceTree = "<group>"; };
+		EDEB779D16AD65E500A202AA /* GTMHTTPFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherService.m; sourceTree = "<group>"; };
+		EDEB779E16AD65E500A202AA /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
+		EDEB779F16AD65E500A202AA /* GTMHTTPFetchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetchHistory.m; sourceTree = "<group>"; };
+		EDEB77A016AD65E500A202AA /* GTMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMLogger.h; sourceTree = "<group>"; };
+		EDEB77A116AD65E500A202AA /* GTMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLogger.m; sourceTree = "<group>"; };
+		EDEB77A216AD65E500A202AA /* GTMMethodCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMethodCheck.h; sourceTree = "<group>"; };
+		EDEB77A316AD65E500A202AA /* GTMMethodCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMethodCheck.m; sourceTree = "<group>"; };
+		EDEB77A416AD65E500A202AA /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		EDEB77A516AD65E500A202AA /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		EDEB77A616AD65E500A202AA /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		EDEB77A716AD65E500A202AA /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		EDEB77A816AD65E500A202AA /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		EDEB77A916AD65E500A202AA /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		EDEB77AA16AD65E500A202AA /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		EDEB77AB16AD65E500A202AA /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		EDEB77AC16AD65E500A202AA /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		EDEB77AD16AD65E500A202AA /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		EDEB77AE16AD65E500A202AA /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		EDEB77AF16AD65E500A202AA /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		EDEB77B016AD65E500A202AA /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
+		EDEB77DA16AD662A00A202AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		EDF99B1E16A9446F00E9DD9B /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
 		EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
 		EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
@@ -318,6 +440,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEB77DB16AD662A00A202AA /* Security.framework in Frameworks */,
 				EDBAFBF016A97875008938D3 /* SystemConfiguration.framework in Frameworks */,
 				EDBAFBEE16A9782C008938D3 /* MessageUI.framework in Frameworks */,
 				EDBAFBE816A976D9008938D3 /* Accounts.framework in Frameworks */,
@@ -326,6 +449,7 @@
 				ED7F4E8F16A55468008F431A /* UIKit.framework in Frameworks */,
 				ED7F4E9116A55468008F431A /* Foundation.framework in Frameworks */,
 				ED7F4E9316A55468008F431A /* CoreGraphics.framework in Frameworks */,
+				EDEB77BA16AD65E500A202AA /* libGooglePlusUniversal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +528,7 @@
 		ED7F4E7F16A55468008F431A = {
 			isa = PBXGroup;
 			children = (
+				EDEB77DA16AD662A00A202AA /* Security.framework */,
 				EDBAFBEF16A97875008938D3 /* SystemConfiguration.framework */,
 				EDBAFBED16A9782C008938D3 /* MessageUI.framework */,
 				EDBAFBE716A976D9008938D3 /* Accounts.framework */,
@@ -499,6 +624,7 @@
 		EDBAFB1816A97673008938D3 /* Share */ = {
 			isa = PBXGroup;
 			children = (
+				EDEB775B16AD65E500A202AA /* google_plus */,
 				EDBAFB1916A97673008938D3 /* Facebook */,
 				EDBAFB4D16A97673008938D3 /* Twitter */,
 			);
@@ -773,6 +899,133 @@
 			path = WebviewDisplayViewController;
 			sourceTree = "<group>";
 		};
+		EDEB775B16AD65E500A202AA /* google_plus */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB775C16AD65E500A202AA /* GP_Resources */,
+				EDEB776516AD65E500A202AA /* lib */,
+				EDEB776C16AD65E500A202AA /* OpenSource */,
+			);
+			path = google_plus;
+			sourceTree = "<group>";
+		};
+		EDEB775C16AD65E500A202AA /* GP_Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB775D16AD65E500A202AA /* google_plus_share.png */,
+				EDEB775E16AD65E500A202AA /* google_plus_share@2x.png */,
+				EDEB775F16AD65E500A202AA /* google_plus_share_large.png */,
+				EDEB776016AD65E500A202AA /* google_plus_share_large@2x.png */,
+				EDEB776116AD65E500A202AA /* google_plus_sign_in.png */,
+				EDEB776216AD65E500A202AA /* google_plus_sign_in@2x.png */,
+				EDEB776316AD65E500A202AA /* google_plus_sign_in_wide.png */,
+				EDEB776416AD65E500A202AA /* google_plus_sign_in_wide@2x.png */,
+			);
+			path = GP_Resources;
+			sourceTree = "<group>";
+		};
+		EDEB776516AD65E500A202AA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB776616AD65E500A202AA /* GPPDeepLink.h */,
+				EDEB776716AD65E500A202AA /* GPPShare.h */,
+				EDEB776816AD65E500A202AA /* GPPSignIn.h */,
+				EDEB776916AD65E500A202AA /* GPPSignInButton.h */,
+				EDEB776A16AD65E500A202AA /* libGooglePlus.a */,
+				EDEB776B16AD65E500A202AA /* libGooglePlusUniversal.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EDEB776C16AD65E500A202AA /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB776D16AD65E500A202AA /* GTL */,
+				EDEB779616AD65E500A202AA /* GTMDefines.h */,
+				EDEB779716AD65E500A202AA /* GTMGarbageCollection.h */,
+				EDEB779816AD65E500A202AA /* GTMHTTPFetcher.h */,
+				EDEB779916AD65E500A202AA /* GTMHTTPFetcher.m */,
+				EDEB779A16AD65E500A202AA /* GTMHTTPFetcherLogging.h */,
+				EDEB779B16AD65E500A202AA /* GTMHTTPFetcherLogging.m */,
+				EDEB779C16AD65E500A202AA /* GTMHTTPFetcherService.h */,
+				EDEB779D16AD65E500A202AA /* GTMHTTPFetcherService.m */,
+				EDEB779E16AD65E500A202AA /* GTMHTTPFetchHistory.h */,
+				EDEB779F16AD65E500A202AA /* GTMHTTPFetchHistory.m */,
+				EDEB77A016AD65E500A202AA /* GTMLogger.h */,
+				EDEB77A116AD65E500A202AA /* GTMLogger.m */,
+				EDEB77A216AD65E500A202AA /* GTMMethodCheck.h */,
+				EDEB77A316AD65E500A202AA /* GTMMethodCheck.m */,
+				EDEB77A416AD65E500A202AA /* GTMNSDictionary+URLArguments.h */,
+				EDEB77A516AD65E500A202AA /* GTMNSDictionary+URLArguments.m */,
+				EDEB77A616AD65E500A202AA /* GTMNSString+URLArguments.h */,
+				EDEB77A716AD65E500A202AA /* GTMNSString+URLArguments.m */,
+				EDEB77A816AD65E500A202AA /* GTMOAuth2Authentication.h */,
+				EDEB77A916AD65E500A202AA /* GTMOAuth2Authentication.m */,
+				EDEB77AA16AD65E500A202AA /* GTMOAuth2SignIn.h */,
+				EDEB77AB16AD65E500A202AA /* GTMOAuth2SignIn.m */,
+				EDEB77AC16AD65E500A202AA /* GTMOAuth2ViewControllerTouch.h */,
+				EDEB77AD16AD65E500A202AA /* GTMOAuth2ViewControllerTouch.m */,
+				EDEB77AE16AD65E500A202AA /* GTMOAuth2ViewTouch.xib */,
+				EDEB77AF16AD65E500A202AA /* GTMObjC2Runtime.h */,
+				EDEB77B016AD65E500A202AA /* GTMObjC2Runtime.m */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		EDEB776D16AD65E500A202AA /* GTL */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB776E16AD65E500A202AA /* GTLBase64.h */,
+				EDEB776F16AD65E500A202AA /* GTLBase64.m */,
+				EDEB777016AD65E500A202AA /* GTLBatchQuery.h */,
+				EDEB777116AD65E500A202AA /* GTLBatchQuery.m */,
+				EDEB777216AD65E500A202AA /* GTLBatchResult.h */,
+				EDEB777316AD65E500A202AA /* GTLBatchResult.m */,
+				EDEB777416AD65E500A202AA /* GTLDateTime.h */,
+				EDEB777516AD65E500A202AA /* GTLDateTime.m */,
+				EDEB777616AD65E500A202AA /* GTLDefines.h */,
+				EDEB777716AD65E500A202AA /* GTLErrorObject.h */,
+				EDEB777816AD65E500A202AA /* GTLErrorObject.m */,
+				EDEB777916AD65E500A202AA /* GTLFramework.h */,
+				EDEB777A16AD65E500A202AA /* GTLFramework.m */,
+				EDEB777B16AD65E500A202AA /* GTLJSONParser.h */,
+				EDEB777C16AD65E500A202AA /* GTLJSONParser.m */,
+				EDEB777D16AD65E500A202AA /* GTLObject.h */,
+				EDEB777E16AD65E500A202AA /* GTLObject.m */,
+				EDEB777F16AD65E500A202AA /* GTLPlus */,
+				EDEB778B16AD65E500A202AA /* GTLQuery.h */,
+				EDEB778C16AD65E500A202AA /* GTLQuery.m */,
+				EDEB778D16AD65E500A202AA /* GTLRuntimeCommon.h */,
+				EDEB778E16AD65E500A202AA /* GTLRuntimeCommon.m */,
+				EDEB778F16AD65E500A202AA /* GTLService.h */,
+				EDEB779016AD65E500A202AA /* GTLService.m */,
+				EDEB779116AD65E500A202AA /* GTLTargetNamespace.h */,
+				EDEB779216AD65E500A202AA /* GTLUploadParameters.h */,
+				EDEB779316AD65E500A202AA /* GTLUploadParameters.m */,
+				EDEB779416AD65E500A202AA /* GTLUtilities.h */,
+				EDEB779516AD65E500A202AA /* GTLUtilities.m */,
+			);
+			path = GTL;
+			sourceTree = "<group>";
+		};
+		EDEB777F16AD65E500A202AA /* GTLPlus */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB778016AD65E500A202AA /* GTLPlus.h */,
+				EDEB778116AD65E500A202AA /* GTLPlusConstants.h */,
+				EDEB778216AD65E500A202AA /* GTLPlusConstants.m */,
+				EDEB778316AD65E500A202AA /* GTLPlusItemScope.h */,
+				EDEB778416AD65E500A202AA /* GTLPlusItemScope.m */,
+				EDEB778516AD65E500A202AA /* GTLPlusMoment.h */,
+				EDEB778616AD65E500A202AA /* GTLPlusMoment.m */,
+				EDEB778716AD65E500A202AA /* GTLQueryPlus.h */,
+				EDEB778816AD65E500A202AA /* GTLQueryPlus.m */,
+				EDEB778916AD65E500A202AA /* GTLServicePlus.h */,
+				EDEB778A16AD65E500A202AA /* GTLServicePlus.m */,
+			);
+			path = GTLPlus;
+			sourceTree = "<group>";
+		};
 		EDF99B1C16A9445D00E9DD9B /* ContactUs */ = {
 			isa = PBXGroup;
 			children = (
@@ -948,6 +1201,15 @@
 				EDEB76C216AD014C00A202AA /* WebviewDisplayViewController.xib in Resources */,
 				EDEB76CE16AD07F200A202AA /* nav_hammer_wrench_icon.png in Resources */,
 				EDEB76F816AD3F0F00A202AA /* nav_shield-security-icon.png in Resources */,
+				EDEB77B116AD65E500A202AA /* google_plus_share.png in Resources */,
+				EDEB77B216AD65E500A202AA /* google_plus_share@2x.png in Resources */,
+				EDEB77B316AD65E500A202AA /* google_plus_share_large.png in Resources */,
+				EDEB77B416AD65E500A202AA /* google_plus_share_large@2x.png in Resources */,
+				EDEB77B516AD65E500A202AA /* google_plus_sign_in.png in Resources */,
+				EDEB77B616AD65E500A202AA /* google_plus_sign_in@2x.png in Resources */,
+				EDEB77B716AD65E500A202AA /* google_plus_sign_in_wide.png in Resources */,
+				EDEB77B816AD65E500A202AA /* google_plus_sign_in_wide@2x.png in Resources */,
+				EDEB77D816AD65E500A202AA /* GTMOAuth2ViewTouch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1002,6 +1264,36 @@
 				EDBAFBDB16A97673008938D3 /* OAuth.m in Sources */,
 				EDBAFBDE16A97673008938D3 /* TwitterDialog.m in Sources */,
 				EDEB76C116AD014C00A202AA /* WebviewDisplayViewController.m in Sources */,
+				EDEB77BB16AD65E500A202AA /* GTLBase64.m in Sources */,
+				EDEB77BC16AD65E500A202AA /* GTLBatchQuery.m in Sources */,
+				EDEB77BD16AD65E500A202AA /* GTLBatchResult.m in Sources */,
+				EDEB77BE16AD65E500A202AA /* GTLDateTime.m in Sources */,
+				EDEB77BF16AD65E500A202AA /* GTLErrorObject.m in Sources */,
+				EDEB77C016AD65E500A202AA /* GTLFramework.m in Sources */,
+				EDEB77C116AD65E500A202AA /* GTLJSONParser.m in Sources */,
+				EDEB77C216AD65E500A202AA /* GTLObject.m in Sources */,
+				EDEB77C316AD65E500A202AA /* GTLPlusConstants.m in Sources */,
+				EDEB77C416AD65E500A202AA /* GTLPlusItemScope.m in Sources */,
+				EDEB77C516AD65E500A202AA /* GTLPlusMoment.m in Sources */,
+				EDEB77C616AD65E500A202AA /* GTLQueryPlus.m in Sources */,
+				EDEB77C716AD65E500A202AA /* GTLServicePlus.m in Sources */,
+				EDEB77C816AD65E500A202AA /* GTLQuery.m in Sources */,
+				EDEB77C916AD65E500A202AA /* GTLRuntimeCommon.m in Sources */,
+				EDEB77CA16AD65E500A202AA /* GTLService.m in Sources */,
+				EDEB77CB16AD65E500A202AA /* GTLUploadParameters.m in Sources */,
+				EDEB77CC16AD65E500A202AA /* GTLUtilities.m in Sources */,
+				EDEB77CD16AD65E500A202AA /* GTMHTTPFetcher.m in Sources */,
+				EDEB77CE16AD65E500A202AA /* GTMHTTPFetcherLogging.m in Sources */,
+				EDEB77CF16AD65E500A202AA /* GTMHTTPFetcherService.m in Sources */,
+				EDEB77D016AD65E500A202AA /* GTMHTTPFetchHistory.m in Sources */,
+				EDEB77D116AD65E500A202AA /* GTMLogger.m in Sources */,
+				EDEB77D216AD65E500A202AA /* GTMMethodCheck.m in Sources */,
+				EDEB77D316AD65E500A202AA /* GTMNSDictionary+URLArguments.m in Sources */,
+				EDEB77D416AD65E500A202AA /* GTMNSString+URLArguments.m in Sources */,
+				EDEB77D516AD65E500A202AA /* GTMOAuth2Authentication.m in Sources */,
+				EDEB77D616AD65E500A202AA /* GTMOAuth2SignIn.m in Sources */,
+				EDEB77D716AD65E500A202AA /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				EDEB77D916AD65E500A202AA /* GTMObjC2Runtime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,6 +1345,14 @@
 				GCC_PREFIX_HEADER = "VPNDemo/VPNDemo-Prefix.pch";
 				INFOPLIST_FILE = "VPNDemo/VPNDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/VPNDemo/Share/google_plus/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

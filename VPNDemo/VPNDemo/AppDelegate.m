@@ -19,6 +19,16 @@
 static NSString* kAppId = @"401301426565681";
 @synthesize facebook;
 
+@synthesize share = share_;
+
+static NSString * const kClientID =
+@"322641601518.apps.googleusercontent.com";
+
++ (NSString *)clientID
+{
+    return kClientID;
+}
+
 
 @synthesize tabBarController;
 - (void)dealloc
@@ -26,6 +36,7 @@ static NSString* kAppId = @"401301426565681";
     [_window release];
     [_navigationController release];
     [tabBarController release];
+     [share_ release];
     [super dealloc];
 }
 
@@ -134,6 +145,21 @@ static NSString* kAppId = @"401301426565681";
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    // Handle Google+ share dialog URL.
+    if ([share_ handleURL:url
+        sourceApplication:sourceApplication
+               annotation:annotation])
+    {
+        return YES;
+    }
+    return NO;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

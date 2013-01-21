@@ -12,9 +12,9 @@
 #import "FBConnect.h"
 #import <MessageUI/MFMailComposeViewController.h>
 #import <MessageUI/MFMessageComposeViewController.h>
-
+#import "GPPShare.h"
 @interface ContactViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,
-FBRequestDelegate,FBDialogDelegate,FBSessionDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,MFMessageComposeViewControllerDelegate
+FBRequestDelegate,FBDialogDelegate,FBSessionDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,MFMessageComposeViewControllerDelegate,GPPShareDelegate
 >
 {
     
@@ -31,6 +31,9 @@ FBRequestDelegate,FBDialogDelegate,FBSessionDelegate,UIActionSheetDelegate,MFMai
     AppDelegate * appDelegate;
 
     MFMailComposeViewController *controllerMail;
+    
+    // The Google+ share object to manage the share dialog.
+    GPPShare *share_;
 }
 
 @property (nonatomic, retain) IBOutlet ContactCustomCell*contact_custom_cell;
