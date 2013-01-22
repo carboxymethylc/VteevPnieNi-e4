@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4671381716ADCE6900E350E1 /* nav_mail-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4671381616ADCE6900E350E1 /* nav_mail-icon.png */; };
+		4671381B16ADD19C00E350E1 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4671381816ADD19C00E350E1 /* facebook.png */; };
+		4671381C16ADD19C00E350E1 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 4671381916ADD19C00E350E1 /* google.png */; };
+		4671381D16ADD19C00E350E1 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4671381A16ADD19C00E350E1 /* twitter.png */; };
 		4678F7F516A5927C00D67383 /* SetUpViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678F7F316A5927C00D67383 /* SetUpViewConroller.m */; };
 		4678F7F616A5927C00D67383 /* SetUpViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4678F7F416A5927C00D67383 /* SetUpViewConroller.xib */; };
 		4678F7FA16A5936900D67383 /* SetupCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678F7F916A5936900D67383 /* SetupCustomCell.m */; };
@@ -179,6 +183,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4671381616ADCE6900E350E1 /* nav_mail-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_mail-icon.png"; sourceTree = "<group>"; };
+		4671381816ADD19C00E350E1 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		4671381916ADD19C00E350E1 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		4671381A16ADD19C00E350E1 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		4678F7F216A5927C00D67383 /* SetUpViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpViewConroller.h; sourceTree = "<group>"; };
 		4678F7F316A5927C00D67383 /* SetUpViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpViewConroller.m; sourceTree = "<group>"; };
 		4678F7F416A5927C00D67383 /* SetUpViewConroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetUpViewConroller.xib; sourceTree = "<group>"; };
@@ -456,6 +464,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4671381516ADCE6900E350E1 /* contact */ = {
+			isa = PBXGroup;
+			children = (
+				4671381816ADD19C00E350E1 /* facebook.png */,
+				4671381916ADD19C00E350E1 /* google.png */,
+				4671381A16ADD19C00E350E1 /* twitter.png */,
+				4671381616ADCE6900E350E1 /* nav_mail-icon.png */,
+			);
+			path = contact;
+			sourceTree = "<group>";
+		};
 		4678F7F016A58D3200D67383 /* SetUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,6 +499,7 @@
 		4678F7FD16A59A8A00D67383 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				4671381516ADCE6900E350E1 /* contact */,
 				469A19D816AB01650086A639 /* purchase */,
 				4678F80B16A5AACC00D67383 /* setup */,
 				4678F7FE16A59A8A00D67383 /* Main */,
@@ -1210,6 +1230,10 @@
 				EDEB77B716AD65E500A202AA /* google_plus_sign_in_wide.png in Resources */,
 				EDEB77B816AD65E500A202AA /* google_plus_sign_in_wide@2x.png in Resources */,
 				EDEB77D816AD65E500A202AA /* GTMOAuth2ViewTouch.xib in Resources */,
+				4671381716ADCE6900E350E1 /* nav_mail-icon.png in Resources */,
+				4671381B16ADD19C00E350E1 /* facebook.png in Resources */,
+				4671381C16ADD19C00E350E1 /* google.png in Resources */,
+				4671381D16ADD19C00E350E1 /* twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
