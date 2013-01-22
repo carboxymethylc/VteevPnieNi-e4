@@ -74,7 +74,6 @@
 						<string key="NSFrame">{{0, 31}, {320, 336}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -136,7 +135,6 @@
 						<string key="NSFrame">{{145, 5}, {77, 33}}</string>
 						<reference key="NSSuperview" ref="1068635535"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -306,6 +304,7 @@
 						<string key="btn_fb">UIButton</string>
 						<string key="btn_google_plus">UIButton</string>
 						<string key="btn_twitter">UIButton</string>
+						<string key="plan_imageView">UIImageView</string>
 						<string key="service_detail_label">UILabel</string>
 						<string key="service_label">UILabel</string>
 					</dictionary>
@@ -321,6 +320,10 @@
 						<object class="IBToOneOutletInfo" key="btn_twitter">
 							<string key="name">btn_twitter</string>
 							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="plan_imageView">
+							<string key="name">plan_imageView</string>
+							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="service_detail_label">
 							<string key="name">service_detail_label</string>

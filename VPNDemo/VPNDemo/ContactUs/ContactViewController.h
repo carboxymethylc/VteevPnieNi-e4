@@ -32,6 +32,8 @@ FBRequestDelegate,FBDialogDelegate,FBSessionDelegate,UIActionSheetDelegate,MFMai
 
     MFMailComposeViewController *controllerMail;
     
+     NSMutableArray*image_array;
+    
     // The Google+ share object to manage the share dialog.
     GPPShare *share_;
 }
@@ -43,7 +45,7 @@ FBRequestDelegate,FBDialogDelegate,FBSessionDelegate,UIActionSheetDelegate,MFMai
 
 
 
-
+-(void)ShowMailFunction:(NSString*)subject message:(NSString*)message;
 -(IBAction)share_button_clicked:(id)sender;
 - (void)addTweetContent:(id)tcvc;
 -(void)postPictureToFB;

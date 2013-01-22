@@ -40,7 +40,9 @@
     
     self.navigationItem.titleView = navigation_view;
     
-       permissions = [[NSArray alloc] initWithObjects:@"offline_access",@"offline_access", nil];
+    
+    
+    permissions = [[NSArray alloc] initWithObjects:@"offline_access",@"offline_access", nil];
     appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
     
 	// Do any additional setup after loading the view, typically from a nib.
@@ -160,7 +162,10 @@
             [tell_friend_actionSheet showFromTabBar:appDelegate.tabBarController.tabBar];
             break;
         }
-        
+        case 3:
+        {
+            [self ShowMailFunction:@"" message:@""];
+        }
             
 
             
@@ -173,8 +178,8 @@
 {
     if(buttonIndex== 0)
     {
-        [self ShowMailFunction];
-       
+
+        [self ShowMailFunction:@"" message:@""];
         
         
     }
@@ -196,7 +201,7 @@
 
 #pragma mark MailOption
 
--(void)ShowMailFunction
+-(void)ShowMailFunction:(NSString*)subject message:(NSString*)message
 {
     Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
 	if (mailClass != nil)
@@ -206,8 +211,8 @@
 		{
 			controllerMail = [[MFMailComposeViewController alloc] init];
             controllerMail.mailComposeDelegate = self;
-            [controllerMail setSubject:@"Messanger"];
-            [controllerMail setMessageBody:@"Download messanger" isHTML:NO];
+            [controllerMail setSubject:@"VPN"];
+            [controllerMail setMessageBody:@"Download VPN" isHTML:NO];
             
             
             [self.navigationController presentModalViewController:controllerMail animated:TRUE];
@@ -229,8 +234,8 @@
 // Launches the Mail application on the device.
 -(void)launchMailAppOnDevice
 {
-	NSString *recipients = @"mailto:?&subject=messanger";
-	NSString *body = @"&body=Download messanger";
+	NSString *recipients = @"mailto:?&subject=VPN";
+	NSString *body = @"&body=Download VPN";
 	
 	NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
 	email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
@@ -317,7 +322,7 @@
             
             id<GPPShareBuilder> shareBuilder = [share_ shareDialog];
             
-            NSString *inputText = @"Messanger";
+            NSString *inputText = @"VPN";
             NSString *text = [inputText length] ? inputText : nil;
             if (text)
             {
@@ -355,7 +360,7 @@
 {
     
     
-    NSString*stringShare = @"Download messanger.Its super fast";
+    NSString*stringShare = @"Download VPN.Its super fast";
     
     AppDelegate* appDelegateFB=(AppDelegate *)[[UIApplication sharedApplication] delegate];
     
