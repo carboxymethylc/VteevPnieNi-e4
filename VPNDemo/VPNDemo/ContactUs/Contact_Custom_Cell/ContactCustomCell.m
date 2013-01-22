@@ -14,7 +14,7 @@
 
 @implementation ContactCustomCell
 @synthesize service_label;
-@synthesize btn_google_plus,btn_fb,btn_twitter,service_detail_label;
+@synthesize btn_google_plus,btn_fb,btn_twitter,service_detail_label,plan_imageView;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];

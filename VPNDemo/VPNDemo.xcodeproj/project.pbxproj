@@ -162,6 +162,8 @@
 		EDEB77D816AD65E500A202AA /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEB77AE16AD65E500A202AA /* GTMOAuth2ViewTouch.xib */; };
 		EDEB77D916AD65E500A202AA /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB77B016AD65E500A202AA /* GTMObjC2Runtime.m */; };
 		EDEB77DB16AD662A00A202AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEB77DA16AD662A00A202AA /* Security.framework */; };
+		EDF4B3FC16AE9E4900C8E731 /* customer_service.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDF4B3FB16AE9E4900C8E731 /* customer_service.jpg */; };
+		EDF4B3FE16AE9EAD00C8E731 /* rate_us.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF4B3FD16AE9EAD00C8E731 /* rate_us.png */; };
 		EDF99B2116A9446F00E9DD9B /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */; };
 		EDF99B2216A9446F00E9DD9B /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */; };
 		EDF99B2716A944BA00E9DD9B /* PurchaseCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF99B2516A944BA00E9DD9B /* PurchaseCustomCell.m */; };
@@ -429,6 +431,8 @@
 		EDEB77AF16AD65E500A202AA /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
 		EDEB77B016AD65E500A202AA /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
 		EDEB77DA16AD662A00A202AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EDF4B3FB16AE9E4900C8E731 /* customer_service.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = customer_service.jpg; sourceTree = "<group>"; };
+		EDF4B3FD16AE9EAD00C8E731 /* rate_us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate_us.png; sourceTree = "<group>"; };
 		EDF99B1E16A9446F00E9DD9B /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
 		EDF99B1F16A9446F00E9DD9B /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
 		EDF99B2016A9446F00E9DD9B /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
@@ -467,6 +471,8 @@
 		4671381516ADCE6900E350E1 /* contact */ = {
 			isa = PBXGroup;
 			children = (
+				EDF4B3FD16AE9EAD00C8E731 /* rate_us.png */,
+				EDF4B3FB16AE9E4900C8E731 /* customer_service.jpg */,
 				4671381816ADD19C00E350E1 /* facebook.png */,
 				4671381916ADD19C00E350E1 /* google.png */,
 				4671381A16ADD19C00E350E1 /* twitter.png */,
@@ -1234,6 +1240,8 @@
 				4671381B16ADD19C00E350E1 /* facebook.png in Resources */,
 				4671381C16ADD19C00E350E1 /* google.png in Resources */,
 				4671381D16ADD19C00E350E1 /* twitter.png in Resources */,
+				EDF4B3FC16AE9E4900C8E731 /* customer_service.jpg in Resources */,
+				EDF4B3FE16AE9EAD00C8E731 /* rate_us.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

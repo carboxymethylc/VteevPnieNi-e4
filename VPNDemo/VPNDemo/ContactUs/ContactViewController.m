@@ -27,6 +27,12 @@
     return self;
 }
 
+-(void)dealloc
+{
+    [super dealloc];
+    [share_ release];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -42,6 +48,10 @@
     
     self.cellNib = [UINib nibWithNibName:@"ContactCustomCell" bundle:nil];
     
+    
+    share_ = [[GPPShare alloc] initWithClientID:@"322641601518.apps.googleusercontent.com"];
+    share_.delegate = self;
+    appDelegate.share = share_;
     
 }
 
@@ -89,6 +99,8 @@
             cell.btn_fb.hidden = FALSE;
             cell.btn_twitter.hidden = FALSE;
             cell.btn_google_plus.hidden = FALSE;
+            
+            cell.plan_imageView.hidden = TRUE;
             break;
         }
         case 2:
